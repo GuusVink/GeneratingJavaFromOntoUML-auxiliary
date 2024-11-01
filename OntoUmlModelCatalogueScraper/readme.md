@@ -20,4 +20,5 @@ The following four scripts contain code to analyse these repo stats:
 **class-stereotypes-\*.txt** contain several selections of stereotypes, such as those that are present in the [platform-independent metamodel](https://github.com/OntoUML/ontouml-metamodel).
 
 **util.py** Utility functions used by some of the analysis scripts.
+
 **tests** Some test cases for these utility functions
