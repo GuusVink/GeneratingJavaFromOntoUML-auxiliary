@@ -1,0 +1,13 @@
+kind
+subkind
+phase
+role
+collective
+quantity
+relator
+category
+phaseMixin
+roleMixin
+mixin
+mode
+quality

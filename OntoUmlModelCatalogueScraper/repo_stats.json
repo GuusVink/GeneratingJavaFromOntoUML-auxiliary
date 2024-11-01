@@ -1,0 +1,2943 @@
+{
+    "abel2015petroleum-system": {
+        "Class": {
+            "kind": 4,
+            "quality": 2,
+            "quantity": 6,
+            "situation": 4,
+            "event": 3,
+            "role": 3,
+            "mixin": 1,
+            "enumeration": 5,
+            "datatype": 1
+        },
+        "Relation": {
+            "characterization": 3,
+            "constitute": 3,
+            "pre-state": 3,
+            "pos-state": 3,
+            "null": 9
+        }
+    },
+    "abrahao2018agriculture-operations": {
+        "Class": {
+            "stringNominalStructure": 1,
+            "kind": 9,
+            "category": 3,
+            "relator": 6,
+            "nonPerceivableQuality": 1,
+            "subkind": 2
+        },
+        "Relation": {
+            "null": 29,
+            "structuration": 1,
+            "material": 11,
+            "mediation": 2,
+            "characterization": 1,
+            "componentOf": 3,
+            "derivation": 6
+        }
+    },
+    "aguiar2018rdbs-o": {
+        "Class": {
+            "kind": 12,
+            "category": 4,
+            "subkind": 21,
+            "mode": 3,
+            "role": 2,
+            "collective": 1
+        },
+        "Relation": {
+            "null": 29,
+            "material": 2
+        }
+    },
+    "aguiar2019ooco": {
+        "Class": {
+            "kind": 11,
+            "subkind": 29,
+            "category": 5,
+            "quality": 6,
+            "role": 3,
+            "relator": 2
+        },
+        "Relation": {
+            "null": 14,
+            "componentOf": 11,
+            "characterization": 6
+        }
+    },
+    "ahmad2018aviation": {
+        "Class": {
+            "null": 21
+        },
+        "Relation": {
+            "null": 10
+        }
+    },
+    "aires2022valuenetworks-geo": {
+        "Class": {
+            "stringNominalStructure": 1,
+            "kind": 9,
+            "category": 3,
+            "relator": 6,
+            "nonPerceivableQuality": 1,
+            "subkind": 2
+        },
+        "Relation": {
+            "null": 29,
+            "structuration": 1,
+            "material": 11,
+            "mediation": 2,
+            "characterization": 1,
+            "componentOf": 3,
+            "derivation": 6
+        }
+    },
+    "albuquerque2011ontobio": {
+        "Class": {
+            "kind": 9,
+            "role": 12,
+            "category": 35,
+            "relator": 10,
+            "type": 9,
+            "subkind": 41,
+            "mode": 16,
+            "collective": 3,
+            "mixin": 8,
+            "quantity": 3,
+            "datatype": 1
+        },
+        "Relation": {
+            "mediation": 11,
+            "material": 1,
+            "componentOf": 5,
+            "comparative": 15,
+            "characterization": 3,
+            "null": 5,
+            "memberOf": 3
+        }
+    },
+    "alpinebits2022": {
+        "Class": {
+            "relator": 2,
+            "phase": 5,
+            "category": 5,
+            "roleMixin": 8,
+            "kind": 9,
+            "subkind": 22,
+            "quality": 2,
+            "datatype": 13,
+            "enumeration": 4,
+            "type": 4,
+            "phaseMixin": 3,
+            "collective": 1
+        },
+        "Relation": {
+            "mediation": 6,
+            "material": 12,
+            "null": 3,
+            "historicalDependence": 1,
+            "instantiation": 10,
+            "componentOf": 3,
+            "characterization": 2
+        }
+    },
+    "amaral2019rot": {
+        "Class": {
+            "category": 14,
+            "situation": 2,
+            "event": 4,
+            "mode": 2,
+            "subkind": 8,
+            "role": 3,
+            "roleMixin": 8,
+            "quality": 4,
+            "kind": 1,
+            "relator": 1,
+            "datatype": 1
+        },
+        "Relation": {
+            "characterization": 10,
+            "null": 15,
+            "triggers": 1,
+            "historicalDependence": 1,
+            "bringsAbout": 3,
+            "externalDependence": 8,
+            "material": 1,
+            "mediation": 5,
+            "derivation": 1
+        }
+    },
+    "amaral2020game-theory": {
+        "Class": {
+            "event": 11,
+            "situation": 3,
+            "mode": 3,
+            "category": 1,
+            "roleMixin": 1,
+            "relator": 1,
+            "quality": 1,
+            "datatype": 1
+        },
+        "Relation": {
+            "null": 8,
+            "historicalDependence": 2,
+            "triggers": 1,
+            "bringsAbout": 1,
+            "characterization": 4,
+            "participation": 1,
+            "mediation": 1,
+            "externalDependence": 1,
+            "participational": 1
+        }
+    },
+    "amaral2020rome": {
+        "Class": {
+            "mode": 6,
+            "category": 6,
+            "type": 3,
+            "roleMixin": 10,
+            "phaseMixin": 2,
+            "kind": 6,
+            "datatype": 2,
+            "relator": 5,
+            "quality": 5,
+            "subkind": 3
+        },
+        "Relation": {
+            "characterization": 12,
+            "externalDependence": 6,
+            "instantiation": 3,
+            "null": 20,
+            "mediation": 12,
+            "componentOf": 5
+        }
+    },
+    "amaral2022ethical-requirements": {
+        "Class": {
+            "category": 17,
+            "type": 1,
+            "mode": 2,
+            "event": 2,
+            "role": 2
+        },
+        "Relation": {
+            "null": 14,
+            "characterization": 1,
+            "externalDependence": 2
+        }
+    },
+    "andersson2018value-ascription": {
+        "Class": {
+            "category": 1,
+            "event": 3,
+            "quale": 1,
+            "abstract individual": 1,
+            "set": 2,
+            "quality structure": 1,
+            "endurant": 1,
+            "situation": 2,
+            "quality dimension": 1
+        },
+        "Relation": {
+            "null": 14,
+            "memberOf": 3
+        }
+    },
+    "andrade2023integracao": {
+        "Class": {
+            "kind": 9,
+            "role": 13,
+            "relator": 4,
+            "roleMixin": 2,
+            "subkind": 7,
+            "category": 2,
+            "collective": 1,
+            "mixin": 1,
+            "quality": 4,
+            "null": 1
+        },
+        "Relation": {
+            "mediation": 9,
+            "material": 8,
+            "memberOf": 7,
+            "characterization": 4
+        }
+    },
+    "aristotle-ontology2019": {
+        "Class": {
+            "subkind": 69,
+            "phase": 4,
+            "quantity": 2,
+            "kind": 53,
+            "quality": 4,
+            "mode": 11,
+            "relator": 8,
+            "role": 18,
+            "collective": 2,
+            "event": 7,
+            "mixin": 1,
+            "category": 1,
+            "datatype": 2
+        },
+        "Relation": {
+            "characterization": 23,
+            "participation": 2,
+            "componentOf": 24,
+            "mediation": 32,
+            "null": 44,
+            "subQuantityOf": 10,
+            "material": 7,
+            "natural": 1,
+            "memberOf": 2,
+            "derivation": 2
+        }
+    },
+    "bank-account2013": {
+        "Class": {
+            "role": 6,
+            "kind": 2,
+            "subkind": 2,
+            "relator": 8
+        },
+        "Relation": {
+            "mediation": 11,
+            "material": 1
+        }
+    },
+    "bank-model": {
+        "Class": {
+            "subkind": 5,
+            "relator": 7,
+            "role": 4,
+            "roleMixin": 1,
+            "kind": 3,
+            "collective": 1,
+            "mode": 1,
+            "category": 1
+        },
+        "Relation": {
+            "mediation": 6,
+            "material": 3,
+            "characterization": 1,
+            "memberOf": 1,
+            "derivation": 3
+        }
+    },
+    "barcelos2013normative-acts": {
+        "Class": {
+            "kind": 10,
+            "subkind": 27,
+            "collective": 5,
+            "datatype": 3
+        },
+        "Relation": {
+            "componentOf": 11,
+            "subCollectionOf": 5,
+            "memberOf": 2
+        }
+    },
+    "barcelos2015transport-networks": {
+        "Class": {
+            "roleMixin": 25,
+            "role": 235,
+            "subkind": 71,
+            "relator": 42,
+            "kind": 79,
+            "category": 32,
+            "collective": 1,
+            "phase": 2
+        },
+        "Relation": {
+            "mediation": 129,
+            "material": 92,
+            "componentOf": 83,
+            "memberOf": 1,
+            "derivation": 31,
+            "formal": 12
+        }
+    },
+    "barros2020programming": {
+        "Class": {
+            "relator": 1,
+            "subkind": 11
+        }
+    },
+    "bernasconi2021ontovcm": {
+        "Class": {
+            "role": 5,
+            "kind": 13,
+            "relator": 9,
+            "subkind": 17,
+            "event": 8,
+            "historicalRole": 3,
+            "category": 3,
+            "roleMixin": 4,
+            "type": 10,
+            "collective": 2,
+            "quantity": 1,
+            "historicalRoleMixin": 1
+        },
+        "Relation": {
+            "mediation": 19,
+            "creation": 6,
+            "instantiation": 9,
+            "memberOf": 2,
+            "participation": 14,
+            "historicalDependence": 1,
+            "externalDependence": 3,
+            "null": 5,
+            "componentOf": 5,
+            "manifestation": 2,
+            "formal": 1
+        }
+    },
+    "bernasconi2023fair-principles": {
+        "Class": {
+            "kind": 9,
+            "collective": 2,
+            "subkind": 17,
+            "role": 9,
+            "relator": 4,
+            "category": 3,
+            "roleMixin": 1,
+            "mode": 1
+        },
+        "Relation": {
+            "externalDependence": 11,
+            "mediation": 8,
+            "memberOf": 2,
+            "componentOf": 6,
+            "characterization": 2
+        }
+    },
+    "brazilian-governmental-organizational-structures": {
+        "Class": {
+            "category": 4,
+            "kind": 5,
+            "subkind": 3,
+            "phase": 3
+        },
+        "Relation": {
+            "componentOf": 2,
+            "Formal": 5
+        }
+    },
+    "buchtela2020connection": {
+        "Class": {
+            "kind": 6,
+            "role": 2,
+            "phase": 11
+        },
+        "Relation": {
+            "null": 13
+        }
+    },
+    "buridan-ontology2021": {
+        "Class": {
+            "subkind": 26,
+            "relator": 4,
+            "kind": 11,
+            "mode": 6,
+            "role": 5,
+            "mixin": 1,
+            "category": 1
+        },
+        "Relation": {
+            "mediation": 17,
+            "material": 5,
+            "null": 18,
+            "componentOf": 7,
+            "characterization": 6
+        }
+    },
+    "carolla2014campus-management": {
+        "Class": {
+            "kind": 7,
+            "role": 5,
+            "relator": 5
+        },
+        "Relation": {
+            "null": 10,
+            "material": 5,
+            "componentOf": 3,
+            "derivation": 5
+        }
+    },
+    "castro2012cloudvulnerability": {
+        "Class": {
+            "category": 2,
+            "kind": 11,
+            "relator": 6,
+            "subkind": 10,
+            "role": 3
+        },
+        "Relation": {
+            "formal": 5,
+            "material": 6,
+            "mediation": 13,
+            "null": 1,
+            "derivation": 2
+        }
+    },
+    "cgts2021sebim": {
+        "Class": {
+            "kind": 5,
+            "subkind": 15,
+            "category": 1,
+            "mode": 1,
+            "relator": 1,
+            "quality": 2,
+            "role": 4
+        },
+        "Relation": {
+            "null": 8,
+            "mediation": 2,
+            "derivation": 1
+        }
+    },
+    "chartered-service": {
+        "Class": {
+            "relator": 2,
+            "role": 4,
+            "category": 2,
+            "mode": 2,
+            "collective": 1
+        },
+        "Relation": {
+            "mediation": 5,
+            "formal": 4,
+            "characterization": 2,
+            "part-of": 1,
+            "null": 1,
+            "memberOf": 1
+        }
+    },
+    "clergy-ontology": {
+        "Class": {
+            "collective": 5,
+            "kind": 1,
+            "role": 16,
+            "relator": 7
+        },
+        "Relation": {
+            "memberOf": 3,
+            "subCollectionOf": 3,
+            "material": 7,
+            "mediation": 14,
+            "derivation": 6
+        }
+    },
+    "cmpo2017": {
+        "Class": {
+            "null": 2,
+            "event": 22,
+            "roleMixin": 2,
+            "role": 7,
+            "subkind": 5,
+            "category": 4,
+            "mode": 1,
+            "phase": 6,
+            "kind": 5,
+            "mixin": 1
+        },
+        "Relation": {
+            "null": 60,
+            "material": 6
+        }
+    },
+    "construction-model": {
+        "Class": {
+            "kind": 3,
+            "subkind": 2,
+            "role": 3,
+            "roleMixin": 1,
+            "relator": 1,
+            "collective": 3
+        },
+        "Relation": {
+            "material": 3,
+            "mediation": 2,
+            "subCollectionOf": 2
+        }
+    },
+    "core-o2023": {
+        "Class": {
+            "mode": 5,
+            "category": 8,
+            "situation": 4,
+            "event": 2,
+            "kind": 1,
+            "subkind": 2,
+            "type": 8
+        },
+        "Relation": {
+            "characterization": 4,
+            "null": 28,
+            "triggers": 2,
+            "bringsAbout": 2,
+            "manifestation": 2,
+            "instantiation": 5,
+            "creation": 1,
+            "participation": 1,
+            "componentOf": 2
+        }
+    },
+    "dcat-mlt-ufo2023": {
+        "Class": {
+            "category": 5,
+            "type": 1,
+            "mode": 1,
+            "relator": 3,
+            "subkind": 4,
+            "datatype": 4,
+            "kind": 3,
+            "null": 6,
+            "quality": 1,
+            "roleMixin": 1,
+            "role": 1
+        },
+        "Relation": {
+            "null": 22,
+            "characterization": 3,
+            "mediation": 6
+        }
+    },
+    "debbech2019gosmo": {
+        "Class": {
+            "null": 22
+        },
+        "Relation": {
+            "null": 25
+        }
+    },
+    "debbech2020dysfunction-analysis": {
+        "Class": {
+            "null": 37
+        },
+        "Relation": {
+            "null": 29
+        }
+    },
+    "demori2023miscon": {
+        "Class": {
+            "kind": 9,
+            "role": 7,
+            "relator": 1,
+            "mixin": 1,
+            "category": 4,
+            "mode": 1,
+            "quality": 8
+        },
+        "Relation": {
+            "null": 14,
+            "material": 1,
+            "mediation": 2,
+            "characterization": 9,
+            "derivation": 1
+        }
+    },
+    "derave2019dpo": {
+        "Class": {
+            "roleMixin": 44,
+            "subkind": 79,
+            "kind": 10,
+            "event": 81,
+            "type": 5,
+            "collective": 8,
+            "relator": 5,
+            "category": 3,
+            "role": 9,
+            "mode": 7,
+            "quality": 2,
+            "phase": 4,
+            "null": 2
+        },
+        "Relation": {
+            "memberOf": 10,
+            "mediation": 38,
+            "participation": 51,
+            "null": 153,
+            "instantiation": 4,
+            "participational": 8,
+            "subCollectionOf": 5,
+            "creation": 11,
+            "historicalDependence": 7,
+            "componentOf": 2,
+            "characterization": 4,
+            "externalDependence": 4,
+            "material": 1,
+            "subQuantityOf": 1
+        }
+    },
+    "digitaldoctor2022": {
+        "Class": {
+            "kind": 5,
+            "subkind": 12,
+            "role": 9,
+            "phase": 4,
+            "collective": 1,
+            "relator": 3,
+            "category": 1,
+            "datatype": 8,
+            "mixin": 1,
+            "enumeration": 4
+        },
+        "Relation": {
+            "mediation": 8,
+            "material": 9,
+            "componentOf": 5,
+            "derivation": 1
+        }
+    },
+    "dpo2017": {
+        "Class": {
+            "event": 18,
+            "roleMixin": 1,
+            "category": 3,
+            "kind": 5,
+            "role": 2,
+            "subkind": 11
+        },
+        "Relation": {
+            "null": 44,
+            "material": 6,
+            "componentOf": 1
+        }
+    },
+    "duarte2018osdef": {
+        "Class": {
+            "null": 34
+        },
+        "Relation": {
+            "null": 25
+        }
+    },
+    "duarte2018reqon": {
+        "Class": {
+            "null": 57
+        },
+        "Relation": {
+            "null": 40,
+            "componentOf": 1
+        }
+    },
+    "duarte2020jogabilidade": {
+        "Class": {
+            "relator": 1,
+            "role": 2,
+            "kind": 5,
+            "quality": 4,
+            "datatype": 4,
+            "event": 1,
+            "situation": 2
+        },
+        "Relation": {
+            "null": 6,
+            "characterization": 4,
+            "structuration": 4,
+            "mediation": 2,
+            "material": 1,
+            "triggers": 1,
+            "participation": 2,
+            "derivation": 1
+        }
+    },
+    "duarte2021ross": {
+        "Class": {
+            "null": 31
+        },
+        "Relation": {
+            "null": 23
+        }
+    },
+    "elghosh2020cargos": {
+        "Class": {
+            "roleMixin": 2,
+            "role": 2,
+            "relator": 1,
+            "mode": 2,
+            "kind": 1,
+            "subkind": 1,
+            "event": 1
+        },
+        "Relation": {
+            "material": 1,
+            "mediation": 2,
+            "characterization": 4,
+            "null": 5,
+            "formal": 1,
+            "triggers": 1,
+            "derivation": 1
+        }
+    },
+    "elikan2018brand-identity": {
+        "Class": {
+            "category": 3,
+            "kind": 10,
+            "relator": 1,
+            "mode": 8,
+            "collective": 6,
+            "subkind": 2
+        },
+        "Relation": {
+            "formal": 5,
+            "mediation": 2,
+            "null": 7,
+            "characterization": 8,
+            "material": 3,
+            "memberOf": 5,
+            "derivation": 1
+        }
+    },
+    "eu-rent-refactored2022": {
+        "Class": {
+            "kind": 4,
+            "subkind": 10,
+            "role": 21,
+            "relator": 14,
+            "phase": 15,
+            "roleMixin": 1,
+            "mixin": 1
+        },
+        "Relation": {
+            "material": 11,
+            "mediation": 26,
+            "null": 2,
+            "derivation": 11
+        }
+    },
+    "experiment2013": {
+        "Class": {
+            "mode": 4,
+            "kind": 15,
+            "datatype": 2,
+            "collective": 1
+        },
+        "Relation": {
+            "characterization": 1,
+            "Formal": 12,
+            "componentOf": 12,
+            "memberOf": 1
+        }
+    },
+    "falduci2022non-consensual-pornography": {
+        "Class": {
+            "kind": 2,
+            "role": 9,
+            "relator": 4,
+            "mode": 4,
+            "event": 3,
+            "roleMixin": 2,
+            "category": 3
+        },
+        "Relation": {
+            "material": 4,
+            "mediation": 11,
+            "null": 7,
+            "characterization": 8,
+            "creation": 4,
+            "derivation": 4
+        }
+    },
+    "fernandez-cejas2022curie-o": {
+        "Class": {
+            "kind": 4,
+            "event": 7,
+            "mode": 1,
+            "relator": 2,
+            "collective": 1,
+            "phase": 12,
+            "subkind": 2
+        },
+        "Relation": {
+            "mediation": 4,
+            "memberOf": 1,
+            "participation": 5,
+            "historicalDependence": 4,
+            "null": 3,
+            "characterization": 1,
+            "creation": 3
+        }
+    },
+    "ferreira2015ontoemergeplan": {
+        "Class": {
+            "category": 32,
+            "type": 24,
+            "mode": 18,
+            "kind": 9,
+            "proposition": 4,
+            "role": 15,
+            "material relation": 3,
+            "situation": 2,
+            "mixin": 4,
+            "relator": 9,
+            "roleMixin": 14,
+            "subkind": 2,
+            "collective": 1,
+            "disposition": 5,
+            "event": 3,
+            "datatype": 2
+        },
+        "Relation": {
+            "null": 14,
+            "sum": 2,
+            "formal": 69,
+            "componentOf": 5,
+            "material": 6,
+            "characterization": 7,
+            "mediation": 16,
+            "memberOf": 2
+        }
+    },
+    "fischer2018ontorea": {
+        "Class": {
+            "relator": 2,
+            "phase": 4,
+            "collective": 1,
+            "kind": 5,
+            "event": 2,
+            "subkind": 4
+        },
+        "Relation": {
+            "memberOf": 1,
+            "material": 2,
+            "formal": 10,
+            "mediation": 4,
+            "null": 4,
+            "derivation": 2
+        }
+    },
+    "fonseca2022incorporating": {
+        "Class": {
+            "category": 2,
+            "roleMixin": 4,
+            "role": 7,
+            "type": 3,
+            "kind": 10,
+            "phaseMixin": 2,
+            "relator": 6,
+            "subkind": 5,
+            "mode": 1,
+            "phase": 10,
+            "quality": 1
+        },
+        "Relation": {
+            "instantiation": 4,
+            "mediation": 12,
+            "characterization": 3,
+            "externalDependence": 1,
+            "derivation": 1
+        }
+    },
+    "formula-one2023": {
+        "Class": {
+            "kind": 8,
+            "relator": 1,
+            "role": 7,
+            "collective": 1,
+            "category": 1,
+            "subkind": 2,
+            "roleMixin": 1,
+            "phaseMixin": 2,
+            "mode": 1,
+            "phase": 2
+        },
+        "Relation": {
+            "componentOf": 1,
+            "mediation": 4,
+            "null": 3,
+            "material": 2,
+            "memberOf": 1,
+            "characterization": 1,
+            "derivation": 1
+        }
+    },
+    "fraller2019abc": {
+        "Class": {
+            "kind": 10,
+            "subkind": 19,
+            "relator": 6,
+            "phase": 4
+        },
+        "Relation": {
+            "formal": 16,
+            "mediation": 12,
+            "material": 6,
+            "null": 12
+        }
+    },
+    "franco2018rpg": {
+        "Class": {
+            "kind": 8,
+            "category": 4,
+            "UFO-B": 1,
+            "UFO-C": 2,
+            "mode": 3,
+            "role": 1,
+            "relator": 1,
+            "collective": 2,
+            "subkind": 1
+        },
+        "Relation": {
+            "componentOf": 5,
+            "null": 12,
+            "characterization": 4,
+            "mediation": 2,
+            "memberOf": 1
+        }
+    },
+    "freshbz2023": {
+        "Class": {
+            "quality": 14,
+            "kind": 19,
+            "subkind": 30,
+            "collective": 2,
+            "category": 5,
+            "relator": 8,
+            "role": 10,
+            "phase": 2,
+            "quantity": 1
+        },
+        "Relation": {
+            "componentOf": 19,
+            "characterization": 18,
+            "mediation": 26
+        }
+    },
+    "fumagalli2022criminal-investigation": {
+        "Class": {
+            "kind": 1,
+            "role": 7,
+            "relator": 2
+        },
+        "Relation": {
+            "mediation": 7,
+            "material": 2
+        }
+    },
+    "g809-2015": {
+        "Class": {
+            "category": 1,
+            "kind": 11,
+            "subkind": 4,
+            "role": 6,
+            "relator": 2
+        },
+        "Relation": {
+            "componentOf": 8,
+            "material": 2,
+            "mediation": 6,
+            "derivation": 2
+        }
+    },
+    "gailly2016value": {
+        "Class": {
+            "Agent": 2,
+            "relator": 2,
+            "object": 1,
+            "disposition": 1,
+            "event": 1,
+            "situation": 1,
+            "goal": 1,
+            "intention": 1,
+            "belief": 1,
+            "proposition": 1
+        },
+        "Relation": {
+            "null": 15
+        }
+    },
+    "garcia2022human-genome-events": {
+        "Class": {
+            "category": 1,
+            "historicalRoleMixin": 4,
+            "event": 5,
+            "phaseMixin": 2,
+            "type": 1,
+            "datatype": 2
+        },
+        "Relation": {
+            "historicalDependence": 1,
+            "termination": 1,
+            "creation": 1,
+            "null": 1,
+            "participation": 1,
+            "participational": 1,
+            "instantiation": 1,
+            "externalDependence": 1
+        }
+    },
+    "genealogy2013": {
+        "Class": {
+            "role": 4,
+            "subkind": 2,
+            "kind": 1,
+            "relator": 1
+        },
+        "Relation": {
+            "material": 1,
+            "mediation": 2,
+            "derivation": 1
+        }
+    },
+    "gi2mo": {
+        "Class": {
+            "phase": 6,
+            "role": 26,
+            "relator": 17,
+            "type": 4,
+            "kind": 4,
+            "mode": 4,
+            "collective": 2,
+            "datatype": 5
+        },
+        "Relation": {
+            "mediation": 27,
+            "material": 10,
+            "null": 9,
+            "formal": 1,
+            "characterization": 3,
+            "memberOf": 1,
+            "subCollectionOf": 1,
+            "derivation": 11
+        }
+    },
+    "gomes2022digital-technology": {
+        "Class": {
+            "category": 15,
+            "collective": 3,
+            "relator": 1
+        },
+        "Relation": {
+            "null": 12,
+            "characterization": 2,
+            "mediation": 2,
+            "participation": 2
+        }
+    },
+    "goncalves2011ecg": {
+        "Class": {
+            "kind": 33,
+            "category": 3,
+            "collective": 7,
+            "phase": 8,
+            "quantity": 3,
+            "role": 20,
+            "relator": 12,
+            "subkind": 24,
+            "mode": 4,
+            "roleMixin": 3,
+            "event": 8,
+            "datatype": 8
+        },
+        "Relation": {
+            "componentOf": 21,
+            "subCollectionOf": 3,
+            "mediation": 24,
+            "material": 12,
+            "participation": 10,
+            "null": 78,
+            "derivation": 6,
+            "characterization": 5,
+            "memberOf": 2,
+            "historicalDependence": 2,
+            "creation": 2
+        }
+    },
+    "grueau2013towards": {
+        "Class": {
+            "MentalMode": 1,
+            "Activity": 1,
+            "agent": 1,
+            "InstitutionalAgent": 1,
+            "HumanAgent": 1,
+            "Organization": 1,
+            "null": 7
+        },
+        "Relation": {
+            "null": 3
+        }
+    },
+    "guarino2016value": {
+        "Class": {
+            "quality": 7,
+            "relator": 4,
+            "roleMixin": 1,
+            "category": 3,
+            "mixin": 1,
+            "role": 2
+        },
+        "Relation": {
+            "characterization": 8,
+            "mediation": 8,
+            "null": 12,
+            "formal": 9
+        }
+    },
+    "guarino2018rea": {
+        "Class": {
+            "category": 1,
+            "roleMixin": 3,
+            "relator": 1,
+            "mode": 2,
+            "event": 2,
+            "subkind": 2
+        },
+        "Relation": {
+            "null": 8,
+            "characterization": 2,
+            "mediation": 2
+        }
+    },
+    "guizzardi2005ontological": {
+        "Class": {
+            "datatype": 2,
+            "category": 7,
+            "kind": 9,
+            "quantity": 1,
+            "mode": 4,
+            "mixin": 2,
+            "phase": 4,
+            "role": 7,
+            "collective": 1,
+            "relator": 3,
+            "subkind": 3
+        },
+        "Relation": {
+            "null": 4,
+            "formal": 5,
+            "characterization": 1,
+            "componentOf": 4,
+            "memberOf": 1,
+            "mediation": 6,
+            "material": 2,
+            "derivation": 2
+        }
+    },
+    "guizzardi2014nfr": {
+        "Class": {
+            "null": 18
+        },
+        "Relation": {
+            "null": 11
+        }
+    },
+    "guizzardi2020decision-making": {
+        "Class": {
+            "mixin": 1,
+            "event": 3,
+            "mode": 8,
+            "kind": 3,
+            "role": 3,
+            "relator": 4,
+            "roleMixin": 3,
+            "quality": 4,
+            "null": 24,
+            "type": 1
+        },
+        "Relation": {
+            "characterization": 6,
+            "manifestation": 3,
+            "externalDependence": 4,
+            "participation": 3,
+            "null": 33,
+            "creation": 3,
+            "mediation": 7,
+            "instantiation": 1,
+            "internal": 1
+        }
+    },
+    "guizzardi2022ufo": {
+        "Class": {
+            "kind": 11,
+            "role": 17,
+            "subkind": 7,
+            "quantity": 1,
+            "relator": 6,
+            "collective": 1,
+            "quality": 1,
+            "enumeration": 2,
+            "mode": 3,
+            "event": 7,
+            "phase": 4,
+            "type": 2
+        },
+        "Relation": {
+            "formal": 5,
+            "componentOf": 5,
+            "mediation": 14,
+            "memberOf": 1,
+            "characterization": 4,
+            "null": 3,
+            "externalDependence": 3,
+            "manifestation": 1,
+            "material": 1,
+            "instantiation": 2,
+            "derivation": 1
+        }
+    },
+    "haridy2021egyptian-e-government": {
+        "Class": {
+            "role": 2,
+            "relator": 8,
+            "subkind": 14,
+            "kind": 6,
+            "quality": 2
+        },
+        "Relation": {
+            "mediation": 14,
+            "characterization": 2
+        }
+    },
+    "health-organizations": {
+        "Class": {
+            "collective": 7,
+            "kind": 6,
+            "category": 1,
+            "subkind": 2,
+            "phase": 5,
+            "role": 2,
+            "relator": 1
+        },
+        "Relation": {
+            "mediation": 2,
+            "material": 6,
+            "Formal": 4,
+            "derivation": 1
+        }
+    },
+    "heirbrant2023boekbazaar": {
+        "Class": {
+            "roleMixin": 9,
+            "subkind": 5,
+            "event": 17,
+            "kind": 8,
+            "relator": 3
+        },
+        "Relation": {
+            "mediation": 2,
+            "null": 40,
+            "participation": 1,
+            "creation": 2,
+            "cru": 1,
+            "crd": 1,
+            "crud": 4,
+            "ru": 3,
+            "r": 3,
+            "cr": 1,
+            "derivation": 1
+        }
+    },
+    "idaf2013": {
+        "Class": {
+            "subkind": 21,
+            "kind": 5,
+            "role": 5,
+            "phase": 8,
+            "relator": 3,
+            "collective": 1,
+            "category": 3
+        },
+        "Relation": {
+            "null": 3,
+            "componentOf": 6,
+            "memberOf": 10,
+            "mediation": 7,
+            "material": 2
+        }
+    },
+    "internal-affairs2013": {
+        "Class": {
+            "subkind": 17,
+            "collective": 3,
+            "kind": 13,
+            "relator": 10,
+            "role": 14,
+            "phase": 4
+        },
+        "Relation": {
+            "formal": 6,
+            "memberOf": 4,
+            "componentOf": 6,
+            "mediation": 22,
+            "material": 8,
+            "derivation": 8
+        }
+    },
+    "internship": {
+        "Class": {
+            "role": 13,
+            "relator": 8,
+            "kind": 3,
+            "subkind": 2
+        },
+        "Relation": {
+            "material": 3,
+            "mediation": 13,
+            "derivation": 1
+        }
+    },
+    "it-infrastructure": {
+        "Class": {
+            "kind": 13,
+            "subkind": 8,
+            "phase": 4,
+            "role": 5,
+            "collective": 1
+        },
+        "Relation": {
+            "memberOf": 2,
+            "componentOf": 12,
+            "Formal": 1
+        }
+    },
+    "jacobs2022sdpontology": {
+        "Class": {
+            "enumeration": 12,
+            "category": 1,
+            "kind": 14,
+            "subkind": 1,
+            "quality": 2,
+            "role": 2,
+            "relator": 1,
+            "datatype": 1
+        },
+        "Relation": {
+            "null": 22
+        }
+    },
+    "junior2018o4c": {
+        "Class": {
+            "enumeration": 2,
+            "kind": 3,
+            "subkind": 2,
+            "relator": 4
+        },
+        "Relation": {
+            "mediation": 2,
+            "material": 1,
+            "componentOf": 2
+        }
+    },
+    "khantong2020ontology": {
+        "Class": {
+            "subkind": 4,
+            "kind": 13,
+            "role": 10,
+            "phase": 3
+        },
+        "Relation": {
+            "null": 22
+        }
+    },
+    "kostov2017towards": {
+        "Class": {
+            "event": 23,
+            "null": 6,
+            "commitment": 2,
+            "kind": 7,
+            "object": 3,
+            "trope": 4,
+            "service": 1,
+            "category": 1,
+            "role": 8,
+            "subkind": 1,
+            "type": 2
+        },
+        "Relation": {
+            "null": 32,
+            "material": 2,
+            "has part": 1
+        }
+    },
+    "kritz2020ontobg": {
+        "Class": {
+            "kind": 126,
+            "category": 6,
+            "subkind": 47
+        },
+        "Relation": {
+            "componentOf": 32,
+            "causal": 37,
+            "null": 1
+        }
+    },
+    "laurier2018rea": {
+        "Class": {
+            "roleMixin": 6,
+            "relator": 11,
+            "kind": 2,
+            "role": 4
+        },
+        "Relation": {
+            "null": 17,
+            "formal": 1
+        }
+    },
+    "library": {
+        "Class": {
+            "relator": 14,
+            "kind": 7,
+            "role": 15,
+            "subkind": 4,
+            "collective": 1,
+            "phase": 2
+        },
+        "Relation": {
+            "mediation": 37,
+            "formal": 1,
+            "memberOf": 4,
+            "null": 1,
+            "material": 1,
+            "derivation": 1
+        }
+    },
+    "lindeberg2022full-ontorights": {
+        "Class": {
+            "event": 16,
+            "situation": 9,
+            "quality": 5,
+            "kind": 20,
+            "subkind": 68,
+            "mode": 12,
+            "relator": 10,
+            "roleMixin": 8,
+            "category": 17,
+            "phase": 9,
+            "role": 12,
+            "null": 4
+        },
+        "Relation": {
+            "triggers": 1,
+            "bringsAbout": 4,
+            "characterization": 22,
+            "componentOf": 14,
+            "comparative": 9,
+            "material": 20,
+            "mediation": 25,
+            "memberOf": 3,
+            "participation": 2,
+            "null": 4,
+            "creation": 5,
+            "termination": 2,
+            "derivation": 4
+        }
+    },
+    "lindeberg2022simple-ontorights": {
+        "Class": {
+            "event": 3,
+            "datatype": 9,
+            "kind": 10,
+            "enumeration": 20,
+            "category": 1,
+            "situation": 3,
+            "roleMixin": 2,
+            "phase": 1,
+            "subkind": 2,
+            "role": 5,
+            "relator": 5
+        },
+        "Relation": {
+            "bringsAbout": 3,
+            "null": 7,
+            "comparative": 8,
+            "material": 13,
+            "mediation": 16,
+            "participation": 2,
+            "memberOf": 1,
+            "componentOf": 11,
+            "creation": 3,
+            "termination": 2,
+            "derivation": 1
+        }
+    },
+    "machacova2023gym": {
+        "Class": {
+            "role": 6,
+            "kind": 8,
+            "quality": 7,
+            "relator": 3,
+            "phase": 7,
+            "subkind": 5,
+            "category": 1,
+            "mixin": 1,
+            "roleMixin": 1,
+            "phaseMixin": 1,
+            "mode": 1
+        },
+        "Relation": {
+            "characterization": 8,
+            "mediation": 6,
+            "material": 3,
+            "componentOf": 4
+        }
+    },
+    "maddalena2021ontocovid": {
+        "Class": {
+            "kind": 8,
+            "subkind": 27,
+            "category": 1,
+            "phase": 5,
+            "relator": 3,
+            "role": 14,
+            "quality": 1,
+            "mode": 6,
+            "event": 3,
+            "Normative Description": 6
+        },
+        "Relation": {
+            "null": 58,
+            "externalDependence": 2,
+            "characterization": 12
+        }
+    },
+    "martinez2013human-genome": {
+        "Class": {
+            "collective": 4,
+            "kind": 1,
+            "role": 3,
+            "relator": 2
+        },
+        "Relation": {
+            "subCollectionOf": 2,
+            "memberOf": 2,
+            "Formal": 1,
+            "mediation": 4,
+            "material": 2,
+            "formal": 2,
+            "derivation": 2
+        }
+    },
+    "mello2022monotheism": {
+        "Class": {
+            "null": 47,
+            "datatype": 1
+        },
+        "Relation": {
+            "null": 22
+        }
+    },
+    "mgic-antt2011": {
+        "Class": {
+            "Actor": 64,
+            "Goal": 951,
+            "Normative Document": 85,
+            "Resource": 9,
+            "CQ": 217,
+            "Softgoal": 18,
+            "Plan": 15,
+            "Document": 48,
+            "Actor boundary": 7,
+            "relator": 771,
+            "phase": 109,
+            "kind": 441,
+            "subkind": 789,
+            "roleMixin": 220,
+            "category": 104,
+            "role": 1066,
+            "mixin": 37,
+            "quantity": 20,
+            "mode": 173,
+            "collective": 48,
+            "type": 22,
+            "enumeration": 17
+        },
+        "Relation": {
+            "Decomposition AND": 651,
+            "Contribution+": 73,
+            "Why": 73,
+            "Means-ends": 36,
+            "Dependency Link": 231,
+            "Decomposition OR": 79,
+            "Contribution++": 8,
+            "Contribution--": 1,
+            "material": 167,
+            "Formal": 120,
+            "mediation": 1103,
+            "componentOf": 197,
+            "null": 8,
+            "subQuantityOf": 2,
+            "characterization": 104,
+            "memberOf": 115,
+            "subCollectionOf": 12,
+            "sum": 1,
+            "derivation": 73
+        }
+    },
+    "moreira2018saref4health": {
+        "Class": {
+            "kind": 4,
+            "category": 1,
+            "quality": 2,
+            "ComplexEvent": 1,
+            "quantity": 1,
+            "role": 1,
+            "ComplexAction": 1,
+            "subkind": 4,
+            "collective": 1,
+            "phase": 1,
+            "null": 1,
+            "datatype": 1
+        },
+        "Relation": {
+            "null": 2,
+            "formal": 5,
+            "characterization": 2,
+            "componentOf": 1
+        }
+    },
+    "music-ontology": {
+        "Class": {
+            "kind": 6,
+            "subkind": 16,
+            "role": 9,
+            "phase": 5,
+            "datatype": 1,
+            "relator": 3,
+            "mixin": 1,
+            "collective": 1
+        },
+        "Relation": {
+            "material": 1,
+            "componentOf": 3,
+            "null": 1,
+            "mediation": 6,
+            "formal": 1,
+            "memberOf": 3
+        }
+    },
+    "nardi2015ufo-s": {
+        "Class": {
+            "category": 3,
+            "relator": 3,
+            "event": 6,
+            "roleMixin": 8,
+            "collective": 1,
+            "mode": 6
+        },
+        "Relation": {
+            "characterization": 6,
+            "externalDependence": 6,
+            "sum": 9,
+            "mediation": 6,
+            "formal": 16,
+            "memberOf": 1,
+            "participation": 4
+        }
+    },
+    "neves2020nwpontology": {
+        "Class": {
+            "kind": 13,
+            "role": 4,
+            "subkind": 11,
+            "category": 1,
+            "datatype": 1,
+            "TimePoint": 2,
+            "situation": 2,
+            "event": 1
+        },
+        "Relation": {
+            "null": 22
+        }
+    },
+    "neves2021grain-production": {
+        "Class": {
+            "kind": 4,
+            "subkind": 2,
+            "category": 7,
+            "datatype": 5
+        },
+        "Relation": {
+            "null": 16
+        }
+    },
+    "niederkofler2019dssapple": {
+        "Class": {
+            "category": 13,
+            "mode": 5,
+            "kind": 5,
+            "subkind": 4,
+            "type": 6,
+            "quality": 7,
+            "datatype": 6,
+            "event": 9,
+            "collective": 2,
+            "role": 5,
+            "relator": 4,
+            "phase": 1,
+            "mixin": 1
+        },
+        "Relation": {
+            "null": 4,
+            "participation": 8,
+            "characterization": 4,
+            "instantiation": 5,
+            "componentOf": 1,
+            "memberOf": 2,
+            "historicalDependence": 2,
+            "formal": 8,
+            "mediation": 8,
+            "manifestation": 1
+        }
+    },
+    "o3ontology2015": {
+        "Class": {
+            "null": 67,
+            "role": 31,
+            "kind": 9,
+            "type": 60,
+            "category": 32,
+            "relator": 25,
+            "subkind": 13,
+            "mode": 18,
+            "event": 13,
+            "mixin": 13,
+            "roleMixin": 17,
+            "phase": 2,
+            "Proposition": 3
+        },
+        "Relation": {
+            "null": 75,
+            "Formal": 68,
+            "componentOf": 9,
+            "material": 7,
+            "mediation": 43,
+            "characterization": 5,
+            "PartOf": 2,
+            "sum": 5,
+            "memberOf": 2,
+            "subQuantityOf": 1,
+            "subCollectionOf": 1,
+            "derivation": 2
+        }
+    },
+    "oliveira2007collaboration": {
+        "Class": {
+            "kind": 4,
+            "atomic event": 4,
+            "event": 2,
+            "subkind": 4,
+            "roleMixin": 1,
+            "category": 3,
+            "datatype": 1,
+            "mode": 1
+        },
+        "Relation": {
+            "null": 20
+        }
+    },
+    "oliveira2022rose": {
+        "Class": {
+            "roleMixin": 16,
+            "event": 14,
+            "situation": 6,
+            "relator": 2,
+            "quality": 4,
+            "subkind": 4,
+            "type": 12,
+            "category": 5
+        },
+        "Relation": {
+            "null": 41,
+            "historicalDependence": 4,
+            "bringsAbout": 4,
+            "participation": 7,
+            "characterization": 15,
+            "manifestation": 3,
+            "triggers": 3,
+            "externalDependence": 2,
+            "instantiation": 7
+        }
+    },
+    "online-mentoring": {
+        "Class": {
+            "kind": 6,
+            "subkind": 3,
+            "relator": 3,
+            "role": 15,
+            "collective": 2
+        },
+        "Relation": {
+            "mediation": 6,
+            "material": 7,
+            "memberOf": 2,
+            "derivation": 1
+        }
+    },
+    "parking-business2013": {
+        "Class": {
+            "collective": 1,
+            "kind": 7,
+            "roleMixin": 1,
+            "role": 9,
+            "relator": 17,
+            "subkind": 7,
+            "phase": 6,
+            "type": 2
+        },
+        "Relation": {
+            "mediation": 11,
+            "Formal": 8,
+            "componentOf": 1,
+            "memberOf": 1
+        }
+    },
+    "pereira2015doacao-orgaos": {
+        "Class": {
+            "phase": 8,
+            "kind": 4,
+            "category": 3,
+            "subkind": 2,
+            "role": 4,
+            "relator": 2,
+            "roleMixin": 2
+        },
+        "Relation": {
+            "null": 3,
+            "mediation": 6
+        }
+    },
+    "pereira2020ontotrans": {
+        "Class": {
+            "roleMixin": 35
+        },
+        "Relation": {
+            "null": 67
+        }
+    },
+    "photography": {
+        "Class": {
+            "kind": 8,
+            "subkind": 2,
+            "role": 3,
+            "collective": 2,
+            "relator": 3
+        },
+        "Relation": {
+            "memberOf": 5,
+            "mediation": 4,
+            "material": 2
+        }
+    },
+    "plato-ontology2019": {
+        "Class": {
+            "subkind": 24,
+            "kind": 27,
+            "mode": 4,
+            "role": 5,
+            "collective": 4,
+            "relator": 3,
+            "category": 2,
+            "phase": 2,
+            "datatype": 2
+        },
+        "Relation": {
+            "componentOf": 24,
+            "null": 26,
+            "characterization": 4,
+            "memberOf": 7,
+            "mediation": 6,
+            "material": 2,
+            "derivation": 1
+        }
+    },
+    "porello2020coex": {
+        "Class": {
+            "category": 1,
+            "relator": 2,
+            "event": 4,
+            "mode": 5,
+            "roleMixin": 2,
+            "type": 3
+        },
+        "Relation": {
+            "characterization": 5,
+            "manifestation": 1,
+            "participation": 4,
+            "creation": 1,
+            "mediation": 4,
+            "null": 11,
+            "externalDependence": 6,
+            "historicalDependence": 1,
+            "componentOf": 2,
+            "instantiation": 2
+        }
+    },
+    "ppo-o2021": {
+        "Class": {
+            "quality": 3,
+            "subkind": 30,
+            "kind": 15,
+            "Processual Role": 1,
+            "relator": 1,
+            "category": 2,
+            "situation": 3,
+            "Complex Event": 2,
+            "event": 1,
+            "disposition": 1
+        },
+        "Relation": {
+            "characterization": 1,
+            "null": 29,
+            "triggers": 2,
+            "participation": 6,
+            "bringsAbout": 2,
+            "material": 1,
+            "derivation": 1
+        }
+    },
+    "project-assets2013": {
+        "Class": {
+            "roleMixin": 2,
+            "category": 4,
+            "collective": 1,
+            "kind": 2,
+            "role": 3,
+            "relator": 7
+        },
+        "Relation": {
+            "material": 6,
+            "mediation": 14,
+            "memberOf": 1,
+            "Formal": 1,
+            "derivation": 6
+        }
+    },
+    "project-management-ontology": {
+        "Class": {
+            "kind": 4,
+            "mode": 2,
+            "phase": 2,
+            "subkind": 2,
+            "relator": 1,
+            "roleMixin": 1,
+            "role": 2
+        },
+        "Relation": {
+            "characterization": 2,
+            "formal": 2,
+            "componentOf": 1,
+            "mediation": 2
+        }
+    },
+    "public-expense-ontology2020": {
+        "Class": {
+            "category": 1,
+            "kind": 16,
+            "role": 7,
+            "relator": 17,
+            "roleMixin": 1
+        },
+        "Relation": {
+            "null": 20,
+            "componentOf": 6
+        }
+    },
+    "public-organization2013": {
+        "Class": {
+            "category": 3,
+            "kind": 5,
+            "subkind": 21,
+            "relator": 3,
+            "role": 5,
+            "collective": 1,
+            "phase": 8
+        },
+        "Relation": {
+            "componentOf": 9,
+            "material": 3,
+            "mediation": 6,
+            "memberOf": 10,
+            "derivation": 3
+        }
+    },
+    "public-tender": {
+        "Class": {
+            "relator": 17,
+            "role": 29,
+            "collective": 3,
+            "subkind": 9,
+            "kind": 8,
+            "roleMixin": 5
+        },
+        "Relation": {
+            "mediation": 37,
+            "componentOf": 1,
+            "Formal": 1
+        }
+    },
+    "qam": {
+        "Class": {
+            "kind": 11,
+            "mode": 1,
+            "phase": 8,
+            "subkind": 5,
+            "role": 8,
+            "relator": 6,
+            "collective": 1,
+            "category": 1
+        },
+        "Relation": {
+            "formal": 5,
+            "mediation": 13,
+            "characterization": 1,
+            "memberOf": 1
+        }
+    },
+    "quality-assurance-process-ontology2017": {
+        "Class": {
+            "null": 21,
+            "role": 4,
+            "event": 9,
+            "subkind": 3
+        },
+        "Relation": {
+            "null": 27,
+            "componentOf": 1
+        }
+    },
+    "ramirez2015userfeedback": {
+        "Class": {
+            "category": 1,
+            "roleMixin": 2,
+            "mode": 22,
+            "kind": 9,
+            "relator": 4,
+            "role": 6,
+            "enumeration": 3,
+            "subkind": 3
+        },
+        "Relation": {
+            "null": 8,
+            "characterization": 7,
+            "componentOf": 9,
+            "mediation": 12
+        }
+    },
+    "ramos2021bias": {
+        "Class": {
+            "mode": 20,
+            "event": 6,
+            "role": 2,
+            "kind": 1,
+            "category": 3,
+            "roleMixin": 6,
+            "quality": 6,
+            "subkind": 4,
+            "type": 1
+        },
+        "Relation": {
+            "creation": 3,
+            "manifestation": 4,
+            "participation": 6,
+            "formal": 1,
+            "null": 6,
+            "characterization": 8,
+            "externalDependence": 1,
+            "instantiation": 1
+        }
+    },
+    "real-estate-ontology": {
+        "Class": {
+            "role": 7,
+            "roleMixin": 3,
+            "kind": 3,
+            "relator": 2
+        },
+        "Relation": {
+            "mediation": 5
+        }
+    },
+    "recommendation-ontology": {
+        "Class": {
+            "subkind": 11,
+            "kind": 3,
+            "relator": 2,
+            "datatype": 2
+        },
+        "Relation": {
+            "formal": 3,
+            "mediation": 4,
+            "material": 2,
+            "derivation": 1
+        }
+    },
+    "repa2021public-administration": {
+        "Class": {
+            "kind": 1,
+            "subkind": 2,
+            "role": 7,
+            "viewpoint": 1,
+            "phase": 13,
+            "relator": 1
+        },
+        "Relation": {
+            "null": 7,
+            "mediation": 2
+        }
+    },
+    "richetti2019tdecision": {
+        "Class": {
+            "null": 31
+        },
+        "Relation": {
+            "null": 16
+        }
+    },
+    "road-accident2013": {
+        "Class": {
+            "relator": 3,
+            "role": 7,
+            "kind": 3,
+            "phase": 2
+        },
+        "Relation": {
+            "mediation": 6,
+            "material": 1,
+            "derivation": 1
+        }
+    },
+    "rocha2023ciencia-aberta": {
+        "Class": {
+            "role": 6,
+            "kind": 9,
+            "subkind": 1,
+            "phase": 2,
+            "collective": 2,
+            "category": 1,
+            "mixin": 2,
+            "relator": 1
+        },
+        "Relation": {
+            "mediation": 6,
+            "null": 16
+        }
+    },
+    "rodrigues2017urinary-profiles": {
+        "Class": {
+            "quantity": 3,
+            "roleMixin": 6,
+            "role": 10,
+            "relator": 6,
+            "mode": 3,
+            "category": 2,
+            "subkind": 1,
+            "phase": 1,
+            "processual role": 7,
+            "participation": 7,
+            "situation": 4,
+            "object": 1,
+            "event": 11,
+            "kind": 1
+        },
+        "Relation": {
+            "mediation": 11,
+            "characterization": 3,
+            "material": 4,
+            "null": 21,
+            "presentAt": 8,
+            "induces": 7,
+            "pos-state": 2,
+            "pre-state": 2,
+            "derivation": 4
+        }
+    },
+    "rodrigues2019ontocrime": {
+        "Class": {
+            "null": 60,
+            "mixin": 2,
+            "kind": 6,
+            "category": 4,
+            "roleMixin": 6,
+            "role": 21,
+            "phase": 7
+        },
+        "Relation": {
+            "null": 40,
+            "mediation": 12,
+            "derivation": 5
+        }
+    },
+    "rodrigues2019turbidite": {
+        "Class": {
+            "kind": 2,
+            "subkind": 2,
+            "quantity": 1,
+            "phase": 4,
+            "role": 9,
+            "historicalRole": 17,
+            "participation": 11,
+            "relator": 6,
+            "situation": 8,
+            "event": 4,
+            "roleMixin": 4,
+            "category": 1
+        },
+        "Relation": {
+            "null": 42,
+            "induces": 18,
+            "mediation": 14,
+            "being present at ": 14,
+            "pre-state": 4,
+            "post state": 4,
+            "derivation": 3
+        }
+    },
+    "romanenko2023what": {
+        "Class": {
+            "kind": 4,
+            "event": 2,
+            "role": 7,
+            "quality": 5,
+            "subkind": 18,
+            "relator": 5,
+            "roleMixin": 1,
+            "collective": 1,
+            "phase": 10,
+            "mode": 2
+        },
+        "Relation": {
+            "characterization": 7,
+            "mediation": 10,
+            "memberOf": 3,
+            "null": 5,
+            "participation": 3,
+            "externalDependence": 1,
+            "creation": 2
+        }
+    },
+    "saleme2019mulseonto": {
+        "Class": {
+            "null": 77
+        },
+        "Relation": {
+            "null": 37
+        }
+    },
+    "sales2018competition": {
+        "Class": {
+            "category": 2,
+            "roleMixin": 8,
+            "mode": 2,
+            "relator": 4,
+            "phase": 2,
+            "mixin": 1,
+            "type": 1,
+            "collective": 2,
+            "subkind": 2,
+            "quality": 1,
+            "role": 2
+        },
+        "Relation": {
+            "null": 31
+        }
+    },
+    "sales2018cover": {
+        "Class": {
+            "category": 12,
+            "event": 15,
+            "situation": 4,
+            "type": 2,
+            "roleMixin": 13,
+            "quality": 3,
+            "subkind": 12,
+            "relator": 2
+        },
+        "Relation": {
+            "null": 13,
+            "characterization": 11,
+            "historicalDependence": 5,
+            "triggers": 2,
+            "bringsAbout": 3,
+            "instantiation": 2,
+            "manifestation": 3,
+            "participation": 11,
+            "mediation": 6,
+            "externalDependence": 2
+        }
+    },
+    "santos2020valuenetworks": {
+        "Class": {
+            "subkind": 6,
+            "category": 4,
+            "kind": 5
+        },
+        "Relation": {
+            "null": 6
+        }
+    },
+    "scientific-experiment2013": {
+        "Class": {
+            "kind": 15,
+            "mode": 4,
+            "collective": 1
+        },
+        "Relation": {
+            "Formal": 10,
+            "characterization": 1,
+            "componentOf": 12,
+            "memberOf": 1
+        }
+    },
+    "scientific-publication2013": {
+        "Class": {
+            "category": 11,
+            "role": 3,
+            "relator": 6,
+            "kind": 24,
+            "roleMixin": 2,
+            "subkind": 8,
+            "collective": 1
+        },
+        "Relation": {
+            "mediation": 11,
+            "material": 4,
+            "componentOf": 3
+        }
+    },
+    "services2015": {
+        "Class": {
+            "relator": 5,
+            "roleMixin": 10,
+            "category": 4,
+            "mode": 8,
+            "null": 91,
+            "kind": 5,
+            "collective": 1
+        },
+        "Relation": {
+            "material": 1,
+            "mediation": 10,
+            "sum": 2,
+            "characterization": 14,
+            "externalDependence": 2,
+            "Formal": 19,
+            "null": 32,
+            "componentOf": 9,
+            "memberOf": 1,
+            "derivation": 1
+        }
+    },
+    "short-examples2013": {
+        "Class": {
+            "kind": 13,
+            "role": 14,
+            "relator": 3,
+            "subkind": 5
+        },
+        "Relation": {
+            "mediation": 9,
+            "material": 2,
+            "null": 4,
+            "Formal": 2,
+            "componentOf": 2
+        }
+    },
+    "sikora2021online-education": {
+        "Class": {
+            "mode": 5,
+            "kind": 25,
+            "subkind": 16,
+            "category": 12,
+            "relator": 2,
+            "null": 1,
+            "quality": 4
+        },
+        "Relation": {
+            "material": 32,
+            "characterization": 9,
+            "null": 13,
+            "mediation": 4
+        }
+    },
+    "silva2012itarchitecture": {
+        "Class": {
+            "category": 9,
+            "kind": 27,
+            "relator": 10,
+            "subkind": 32,
+            "role": 6
+        },
+        "Relation": {
+            "mediation": 4,
+            "material": 2,
+            "null": 27
+        }
+    },
+    "silva2021sebim": {
+        "Class": {
+            "kind": 14,
+            "subkind": 18,
+            "category": 1,
+            "mode": 2,
+            "relator": 1,
+            "quality": 2,
+            "role": 4
+        },
+        "Relation": {
+            "null": 19,
+            "mediation": 2,
+            "derivation": 1
+        }
+    },
+    "silva2023onto4caal": {
+        "Class": {
+            "category": 10,
+            "mixin": 1,
+            "subkind": 72,
+            "role": 6,
+            "roleMixin": 1,
+            "kind": 29,
+            "quality": 27,
+            "datatype": 4,
+            "mode": 42,
+            "null": 1
+        },
+        "Relation": {
+            "null": 66,
+            "characterization": 20
+        }
+    },
+    "silva2023onto4elev": {
+        "Class": {
+            "roleMixin": 1,
+            "subkind": 48,
+            "role": 12,
+            "kind": 59,
+            "category": 6,
+            "null": 4,
+            "quality": 25,
+            "mode": 42
+        },
+        "Relation": {
+            "null": 77
+        }
+    },
+    "silveira2021oap": {
+        "Class": {
+            "kind": 8,
+            "mode": 3,
+            "relator": 1,
+            "role": 9,
+            "category": 7,
+            "roleMixin": 2,
+            "subkind": 2
+        },
+        "Relation": {
+            "material": 8,
+            "memberOf": 2,
+            "characterization": 3,
+            "mediation": 2,
+            "componentOf": 1,
+            "externalDependence": 2,
+            "null": 6,
+            "Formal": 1
+        }
+    },
+    "social-contract": {
+        "Class": {
+            "kind": 12,
+            "relator": 3,
+            "collective": 9,
+            "role": 2,
+            "subkind": 7
+        },
+        "Relation": {
+            "componentOf": 12,
+            "Formal": 5,
+            "mediation": 9,
+            "material": 2,
+            "subCollectionOf": 4,
+            "derivation": 1
+        }
+    },
+    "social-contracts2013": {
+        "Class": {
+            "kind": 12,
+            "subkind": 7,
+            "relator": 3,
+            "role": 2,
+            "collective": 9
+        },
+        "Relation": {
+            "mediation": 6,
+            "subCollectionOf": 4,
+            "Formal": 8,
+            "componentOf": 12,
+            "material": 3,
+            "derivation": 3
+        }
+    },
+    "sousa2022triponto": {
+        "Class": {
+            "datatype": 6,
+            "relator": 5,
+            "category": 2,
+            "roleMixin": 6,
+            "role": 6,
+            "subkind": 8,
+            "kind": 9,
+            "phase": 2
+        },
+        "Relation": {
+            "material": 7,
+            "mediation": 24,
+            "null": 1,
+            "derivation": 4
+        }
+    },
+    "spmo2017": {
+        "Class": {
+            "mode": 8,
+            "null": 17,
+            "subkind": 1,
+            "roleMixin": 1,
+            "relator": 1,
+            "event": 6
+        },
+        "Relation": {
+            "null": 25,
+            "mediation": 2
+        }
+    },
+    "spo2017": {
+        "Class": {
+            "type": 19,
+            "kind": 11,
+            "category": 7,
+            "mode": 10,
+            "subkind": 2,
+            "null": 34,
+            "roleMixin": 3,
+            "relator": 1,
+            "event": 17,
+            "role": 5
+        },
+        "Relation": {
+            "null": 87,
+            "material": 2
+        }
+    },
+    "sportbooking2021": {
+        "Class": {
+            "relator": 9,
+            "role": 10,
+            "kind": 8,
+            "phase": 4,
+            "category": 2,
+            "collective": 1,
+            "datatype": 3
+        },
+        "Relation": {
+            "mediation": 21,
+            "null": 8,
+            "derivation": 2,
+            "material": 6,
+            "partOf": 1
+        }
+    },
+    "srro-ontology": {
+        "Class": {
+            "kind": 7,
+            "category": 1,
+            "subkind": 4,
+            "role": 5,
+            "mode": 3
+        },
+        "Relation": {
+            "null": 15
+        }
+    },
+    "stock-broker2021": {
+        "Class": {
+            "kind": 2,
+            "role": 7,
+            "roleMixin": 1,
+            "relator": 2,
+            "subkind": 2
+        },
+        "Relation": {
+            "mediation": 6
+        }
+    },
+    "swo2016": {
+        "Class": {
+            "null": 16
+        },
+        "Relation": {
+            "null": 9
+        }
+    },
+    "telecom-equipment2013": {
+        "Class": {
+            "role": 14,
+            "roleMixin": 1,
+            "kind": 8,
+            "mixin": 2,
+            "relator": 9
+        },
+        "Relation": {
+            "mediation": 18,
+            "material": 14,
+            "derivation": 9
+        }
+    },
+    "tender2013": {
+        "Class": {
+            "role": 34,
+            "kind": 11,
+            "roleMixin": 6,
+            "collective": 4,
+            "relator": 19,
+            "subkind": 10
+        },
+        "Relation": {
+            "mediation": 40,
+            "componentOf": 1,
+            "Formal": 2
+        }
+    },
+    "tesolin2023hint": {
+        "Class": {
+            "kind": 3,
+            "role": 13,
+            "mode": 3,
+            "relator": 1,
+            "null": 18
+        },
+        "Relation": {
+            "characterization": 3,
+            "externalDependence": 4,
+            "null": 39,
+            "mediation": 2,
+            "derivation": 5
+        }
+    },
+    "tourbo2021": {
+        "Class": {
+            "role": 5,
+            "relator": 4,
+            "kind": 7,
+            "category": 3,
+            "subkind": 16,
+            "phase": 5,
+            "datatype": 7,
+            "quality": 2
+        },
+        "Relation": {
+            "material": 4,
+            "null": 7,
+            "mediation": 7,
+            "characterization": 1,
+            "derivation": 2
+        }
+    },
+    "unimatch-ontology2022": {
+        "Class": {
+            "kind": 16,
+            "subkind": 10,
+            "phase": 5,
+            "abstract": 1,
+            "relator": 2
+        },
+        "Relation": {
+            "componentOf": 10,
+            "memberOf": 1,
+            "null": 4,
+            "mediation": 5,
+            "characterization": 1,
+            "comparative": 1
+        }
+    },
+    "university-ontology": {
+        "Class": {
+            "phase": 9,
+            "subkind": 3,
+            "role": 6,
+            "relator": 4,
+            "kind": 5,
+            "quality": 2,
+            "datatype": 3
+        },
+        "Relation": {
+            "componentOf": 2,
+            "null": 14,
+            "characterization": 2,
+            "mediation": 8,
+            "material": 3,
+            "derivation": 4
+        }
+    },
+    "valaski2020medical-appointment": {
+        "Class": {
+            "relator": 1,
+            "kind": 4,
+            "role": 2
+        },
+        "Relation": {
+            "mediation": 2,
+            "Formal": 1,
+            "material": 3,
+            "derivation": 1
+        }
+    },
+    "van-ee2021modular": {
+        "Class": {
+            "quality": 7,
+            "event": 23,
+            "subkind": 25,
+            "kind": 15,
+            "relator": 2,
+            "category": 12,
+            "situation": 3,
+            "null": 5,
+            "datatype": 4,
+            "phase": 3,
+            "mode": 1
+        },
+        "Relation": {
+            "material": 51,
+            "mediation": 2,
+            "componentOf": 6,
+            "null": 3,
+            "comparative": 1,
+            "participation": 1,
+            "characterization": 1,
+            "bringsAbout": 1
+        }
+    },
+    "van-wingerde2020smart-contracts": {
+        "Class": {
+            "NonPerceivableQuality": 5,
+            "kind": 15,
+            "collective": 2,
+            "roleMixin": 2,
+            "role": 4,
+            "event": 3,
+            "phase": 1,
+            "category": 2,
+            "phaseMixin": 1,
+            "relator": 2,
+            "mode": 1,
+            "subkind": 1
+        },
+        "Relation": {
+            "null": 42
+        }
+    },
+    "vieira2020weathering": {
+        "Class": {
+            "event": 5,
+            "situation": 12,
+            "category": 6,
+            "role": 1,
+            "quantity": 2,
+            "kind": 2,
+            "historicalRole": 2,
+            "roleMixin": 1,
+            "null": 2,
+            "quality": 5,
+            "relator": 1
+        },
+        "Relation": {
+            "null": 44,
+            "participation": 6,
+            "creation": 1,
+            "characterization": 5,
+            "material": 1,
+            "mediation": 2,
+            "derivation": 1
+        }
+    },
+    "weigand2021artifact": {
+        "Class": {
+            "historicalRoleMixin": 4,
+            "category": 9,
+            "mode": 1,
+            "event": 9,
+            "roleMixin": 5,
+            "quality": 2,
+            "situation": 4,
+            "null": 4,
+            "abstract": 1,
+            "phaseMixin": 7,
+            "type": 6
+        },
+        "Relation": {
+            "participation": 10,
+            "characterization": 4,
+            "manifestation": 3,
+            "creation": 3,
+            "historicalDependence": 7,
+            "instantiation": 7,
+            "bringsAbout": 2,
+            "componentOf": 2,
+            "material": 6,
+            "null": 2
+        }
+    },
+    "xhani2023xmlpo": {
+        "Class": {
+            "kind": 23,
+            "category": 4,
+            "quality": 18,
+            "event": 21,
+            "relator": 9,
+            "role": 8,
+            "subkind": 26,
+            "phase": 3
+        },
+        "Relation": {
+            "participation": 30,
+            "mediation": 18,
+            "characterization": 19,
+            "creation": 9,
+            "participational": 7,
+            "null": 9
+        }
+    },
+    "zanetti2019orm-o": {
+        "Class": {
+            "subkind": 2,
+            "kind": 3,
+            "relator": 14,
+            "role": 14,
+            "quality": 1
+        },
+        "Relation": {
+            "null": 4,
+            "mediation": 17,
+            "characterization": 1
+        }
+    },
+    "zhou2017hazard": {
+        "Class": {
+            "null": 17
+        },
+        "Relation": {
+            "null": 17
+        }
+    },
+    "zhou2017hazard-ontology-robotic-strolling": {
+        "Class": {
+            "kind": 4,
+            "role": 6,
+            "relator": 3
+        },
+        "Relation": {
+            "null": 14
+        }
+    },
+    "zhou2017hazard-ontology-train-control": {
+        "Class": {
+            "kind": 10,
+            "role": 10,
+            "relator": 5
+        },
+        "Relation": {
+            "null": 30
+        }
+    }
+}
