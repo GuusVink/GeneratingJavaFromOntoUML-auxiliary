@@ -9,7 +9,7 @@ Python scripts to execute the [OntoUML2Java transformation](https://github.com/G
   - Such as https://www.graalvm.org/
   - The Java executable should be added to the system path
 - A working installation of the [ANT build tool](https://ant.apache.org/)
-  - The ANT should be added to the system path
+  - The ANT executable should be added to the system path
 
 
 ## Example
