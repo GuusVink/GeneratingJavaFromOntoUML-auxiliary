@@ -1,101 +1,97 @@
 ,model,transformation_successful,generated_code_compiles,transformation_failed_at_stage,transformation_time_s,ontouml_read_errors,atl_warnings,acceleo_warnings,compilation_errors,read_ontouml_time_s,atl_time_s,acceleo_time_s,n_classes,atl_warnings_present
-0,aguiar2018rdbs-o,True,True,,16.0541322,,set(),,,0.9859704,7.247513,7.8206488,43,
-1,aguiar2019ooco,True,False,,16.2643183,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+0,aguiar2018rdbs-o,True,True,,17.0059651,,set(),,,1.1804094,7.5131741,8.3123816,43,
+1,aguiar2019ooco,True,False,,17.4129052,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 56 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\AbstractClass.java:20: error: '{' expected
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 56 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\AbstractClass.java:20: error: '{' expected
     [javac] public class AbstractClass extends ExtendableClass, Class {
     [javac]                                                   ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\NestedClass.java:22: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\NestedClass.java:22: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\NestedClass.java:22: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\NestedClass.java:22: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\NestedClass.java:52: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\NestedClass.java:52: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:27: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:27: error: <identifier> expected
     [javac] 	public Class class = null;
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:27: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:27: error: <identifier> expected
     [javac] 	public Class class = null;
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:68: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:68: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:76: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Nesting.java:76: error: <identifier> expected
     [javac] 		this.class = newClass;
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Subclass.java:22: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Subclass.java:22: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Subclass.java:22: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Subclass.java:22: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Subclass.java:52: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_\Subclass.java:52: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:8: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:8: error: <identifier> expected
     [javac] import aguiar2019ooco.model.model.ooco.class.AbstractClass;
     [javac]                                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:8: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:8: error: <identifier> expected
     [javac] import aguiar2019ooco.model.model.ooco.class.AbstractClass;
     [javac]                                             ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:9: error: class, interface, enum, or record expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:9: error: class, interface, enum, or record expected
     [javac] import aguiar2019ooco.model.model.ooco.core.MethodMemberFunction;
     [javac] ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:19: error: '{' expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\AbstractMethod.java:19: error: '{' expected
     [javac] public class AbstractMethod extends OverridableMethod, MethodMemberFunction {
     [javac]                                                      ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\ClassMethod.java:17: error: '{' expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\ClassMethod.java:17: error: '{' expected
     [javac] public class ClassMethod extends ConcreteMethod, NonOverridableMethod {
     [javac]                                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\ConstructorMethod.java:17: error: '{' expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\ConstructorMethod.java:17: error: '{' expected
     [javac] public class ConstructorMethod extends NonOverridableMethod, InstanceMethod {
-    [javac]                                                            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\aguiar2019ooco\model\model\ooco\class_member\OverridableMethod.java:8: error: <identifier> expected
-    [javac] import aguiar2019ooco.model.model.ooco.class.ExtendableClass;
-    [javac]                                        ^
-    [javac] C:\Users\64guu\eclips
- [and 82 more lines]",1.0468513,7.3310473,7.8864197,56,
-2,bank-account2013,True,True,,15.93847,,{'Warning: Property without type found in OntoUML model (named valor) : false'},,,0.9395866,7.2344099,7.7644735,18,Contains property without type
-3,bank-model,True,True,,16.0569982,,"{'Warning: Property without type found in OntoUML model (named value) : false', 'Warning: Property without type found in OntoUML model (named longitude) : false', 'Warning: Property without type found in OntoUML model (named latitude) : false'}",,,0.9399478,7.2885943,7.8284561,23,Contains property without type
-4,barcelos2013normative-acts,True,True,,16.2222642,,"{'Warning: Property without type found in OntoUML model (named publication date) : false', 'Warning: Property without type found in OntoUML model (named duration) : false'}",,,1.0046444,7.3391311,7.8784887,45,Contains property without type
-5,barcelos2015transport-networks,True,True,,20.9903654,,"{'Warning: Property without type found in OntoUML model (named longitude) : false', 'Warning: Property without type found in OntoUML model (named latitude) : false', 'Warning: Property without type found in OntoUML model (named location) : false', 'Warning: Property without type found in OntoUML model (named type) : false'}",,,1.2604106,9.932681,9.7972738,487,Contains property without type
-6,barros2020programming,True,True,,15.8053146,,set(),,,0.9645847,7.173512,7.6672179,12,
-7,bernasconi2023fair-principles,True,True,,16.3189665,,set(),,,0.9853233,7.35005,7.9835932,46,
-8,brazilian-governmental-organizational-structures,True,True,,15.9080792,,set(),,,0.9597981,7.2303534,7.7179277,15,
-9,buchtela2020connection,True,True,,16.0480289,,set(),,,0.9852492,7.2801845,7.7825952,19,
-10,buridan-ontology2021,True,False,,16.4444354,,{'Warning: Property without type found in OntoUML model (named language) : false'},,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+    [javac]
+ [and 86 more lines]",1.0737402,7.8571477,8.4820173,56,
+2,bank-account2013,True,True,,17.0716333,,{'Warning: Property without type found in OntoUML model (named valor) : false'},,,0.9929024,8.0071452,8.0715857,18,Contains property without type
+3,bank-model,True,True,,16.4346826,,"{'Warning: Property without type found in OntoUML model (named value) : false', 'Warning: Property without type found in OntoUML model (named latitude) : false', 'Warning: Property without type found in OntoUML model (named longitude) : false'}",,,0.990406,7.387774,8.0565026,23,Contains property without type
+4,barcelos2013normative-acts,True,True,,17.0793388,,"{'Warning: Property without type found in OntoUML model (named duration) : false', 'Warning: Property without type found in OntoUML model (named publication date) : false'}",,,1.0604137,7.5405567,8.4783684,45,Contains property without type
+5,barcelos2015transport-networks,True,True,,21.7487247,,"{'Warning: Property without type found in OntoUML model (named location) : false', 'Warning: Property without type found in OntoUML model (named latitude) : false', 'Warning: Property without type found in OntoUML model (named longitude) : false', 'Warning: Property without type found in OntoUML model (named type) : false'}",,,1.339952,10.2598494,10.1489233,487,Contains property without type
+6,barros2020programming,True,True,,16.5540605,,set(),,,0.998622,7.5391638,8.0162747,12,
+7,bernasconi2023fair-principles,True,True,,17.5218076,,set(),,,1.091607,7.7039852,8.7262154,46,
+8,brazilian-governmental-organizational-structures,True,True,,16.9855333,,set(),,,1.0127206,7.744025,8.2287877,15,
+9,buchtela2020connection,True,True,,16.8459212,,set(),,,0.9770584,7.6322797,8.2365831,19,
+10,buridan-ontology2021,True,False,,17.26926,,{'Warning: Property without type found in OntoUML model (named language) : false'},,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 54 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\buridanontology2021\model\buridan_ontology\conventional_spoken_written_language\MaterialSupposition.java:19: error: '{' expected
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 54 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\buridanontology2021\model\buridan_ontology\conventional_spoken_written_language\MaterialSupposition.java:19: error: '{' expected
     [javac] public class MaterialSupposition extends Supposition, ProperSuppositon {
     [javac]                                                     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\buridanontology2021\model\buridan_ontology\conventional_spoken_written_language\PersonalSupposition.java:18: error: '{' expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\buridanontology2021\model\buridan_ontology\conventional_spoken_written_language\PersonalSupposition.java:18: error: '{' expected
     [javac] public class PersonalSupposition extends Supposition, ProperSuppositon {
     [javac]                                                     ^
     [javac] 2 errors
 
- [and 0 more lines]",1.0173744,7.4378776,7.9891834,54,Contains property without type
-11,carolla2014campus-management,True,True,,16.0693581,,set(),,,1.0246395,7.2675394,7.7771792,17,
-12,castro2012cloudvulnerability,True,True,,16.2021106,,set(),,,0.9990216,7.3259157,7.8771733,32,
-13,cgts2021sebim,True,True,,16.0666065,,"{'Warning: Property without type found in OntoUML model (named value) : false', 'Warning: Property without type found in OntoUML model (named description) : false'}",,,0.9391872,7.2981856,7.8292337,29,Contains property without type
-14,chartered-service,False,False,read_ontouml,0.9487983,"Buildfile: C:\Users\64guu\eclipse-ontouml\nl.guusgrievink.emf.ontouml.model\build.xml
+ [and 0 more lines]",1.0545194,7.6854755,8.5292651,54,Contains property without type
+11,carolla2014campus-management,True,True,,16.7711837,,set(),,,1.0106528,7.7502478,8.0102831,17,
+12,castro2012cloudvulnerability,True,True,,16.704148,,set(),,,1.0882292,7.4601553,8.1557635,32,
+13,cgts2021sebim,True,True,,17.0778118,,"{'Warning: Property without type found in OntoUML model (named value) : false', 'Warning: Property without type found in OntoUML model (named description) : false'}",,,0.9965409,7.7040151,8.3772558,29,Contains property without type
+14,chartered-service,False,False,read_ontouml,0.9641425,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\nl.guusgrievink.emf.ontouml.model\build.xml
 
 convertFromModelRepo:
-     [java] Reading from: C:\Users\64guu\PycharmProjects\OntoUMLTesting\TransformationChainTest\modelJsons-relationStereotypesRenamed\chartered-service.json
+     [java] Reading from: C:\Users\64guu\PycharmProjects\OntoUMLTesting\OntoUML2JavaAutomatedValidation\modelJsons-relationStereotypesRenamed\chartered-service.json
      [java] Exception in thread ""main"" java.lang.IllegalArgumentException: The value 'part-of' is not a valid enumerator of 'RelationStereotype'
      [java] 	at nl.guusgrievink.emf.ontouml.model.ontouml.impl.OntoumlFactoryImpl.createRelationStereotypeFromString(OntoumlFactoryImpl.java:349)
      [java] 	at nl.guusgrievink.emf.ontouml.model.ontouml.impl.OntoumlFactoryImpl.createFromString(OntoumlFactoryImpl.java:121)
@@ -120,366 +116,360 @@ convertFromModelRepo:
      [java] 	at org.eclipse.emfcloud.jackson.resource.JsonResource.doLoad(JsonResource.java:184)
      [java] 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
      [java] 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
-     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.convertOntoUmlJsonToXmi(readOntoUML.java:70)
-     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.main(readOntoUML.java:45)
+     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.convertOntoUmlJsonToXmi(readOntoUML.java:60)
+     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.main(readOntoUML.java:41)
 
- [and 0 more lines]",,,,0.9487983,"(-1,)","(-1,)",11,
-15,clergy-ontology,True,True,,16.2378927,,set(),,,0.9811527,7.3181029,7.9386371,29,
-16,construction-model,True,True,,15.8449488,,set(),,,0.9666975,7.2176219,7.6606294,13,
-17,demori2023miscon,True,False,,16.0900355,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",,,,0.9641425,"(-1,)","(-1,)",11,
+15,clergy-ontology,True,True,,17.1928823,,set(),,,1.0452765,7.873321,8.2742848,29,
+16,construction-model,True,True,,16.8072243,,set(),,,0.9870173,7.7330314,8.0871756,13,
+17,demori2023miscon,True,False,,17.1636084,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 31 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:46: error: <identifier> expected
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 31 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:46: error: <identifier> expected
     [javac] 	public Interface interface = null;
     [javac] 	                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:46: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:46: error: <identifier> expected
     [javac] 	public Interface interface = null;
     [javac] 	                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:135: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:135: error: <identifier> expected
     [javac] 		return this.interface;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:135: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:135: error: <identifier> expected
     [javac] 		return this.interface;
     [javac] 		                     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:143: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:143: error: <identifier> expected
     [javac] 		this.interface = newInterface;
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:143: error: not a statement
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:143: error: not a statement
     [javac] 		this.interface = newInterface;
     [javac] 		    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:143: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\CommDevice.java:143: error: <identifier> expected
     [javac] 		this.interface = newInterface;
     [javac] 		              ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:36: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:36: error: <identifier> expected
     [javac] 	public Interface interface = null;
     [javac] 	                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:36: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:36: error: <identifier> expected
     [javac] 	public Interface interface = null;
     [javac] 	                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:93: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:93: error: <identifier> expected
     [javac] 		return this.interface;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:93: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:93: error: <identifier> expected
     [javac] 		return this.interface;
     [javac] 		                     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:101: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:101: error: <identifier> expected
     [javac] 		this.interface = newInterface;
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:101: error: not a statement
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:101: error: not a statement
     [javac] 		this.interface = newInterface;
     [javac] 		    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:101: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\demori2023miscon\model\dataconference_2023\InterfacePowerType.java:101: error: <identifier> expected
     [javac] 		this.interface = newInterface;
     [javac] 		              ^
     [javac] 14 errors
 
- [and 0 more lines]",0.9543267,7.2843361,7.8513727,31,
-18,digitaldoctor2022,True,False,,16.5082724,,"{'Warning: Property without type found in OntoUML model (named prescriptionRequired) : false', 'Warning: Property without type found in OntoUML model (named diagnosisMethod) : false', 'Warning: Property without type found in OntoUML model (named Rheumatologic) : false', 'Warning: Property without type found in OntoUML model (named birthdate) : false', 'Warning: Property without type found in OntoUML model (named isAvailableGenerically) : false', 'Warning: Property without type found in OntoUML model (named Neurologic) : false', 'Warning: Property without type found in OntoUML model (named Urologic) : false', 'Warning: Property without type found in OntoUML model (named Cardiovascular) : false', 'Warning: Property without type found in OntoUML model (named Pulmonary) : false', 'Warning: Property without type found in OntoUML model (named Dentistry) : false', 'Warning: Property without type found in OntoUML model (named SpeechPathology) : false', 'Warning: Property without type found in OntoUML model (named Musculoskeletal) : false', 'Warning: Property without type found in OntoUML model (named Surgical) : false', 'Warning: Property without type found in OntoUML model (named Infectious) : false', 'Warning: Property without type found in OntoUML model (named symptomWorsening) : false', 'Warning: Property without type found in OntoUML model (named DietNutrition) : false', 'Warning: Property without type found in OntoUML model (named Hematologic) : false', 'Warning: Property without type found in OntoUML model (named Radiography) : false', 'Warning: Property without type found in OntoUML model (named Gynecologic) : false', 'Warning: Property without type found in OntoUML model (named Pediatric) : false', 'Warning: Property without type found in OntoUML model (named Toxicologic) : false', 'Warning: Property without type found in OntoUML model (named Endocrine) : false', 'Warning: Property without type found in OntoUML model (named Oncologic) : false', 'Warning: Property without type found in OntoUML model (named Geriatric) : false', 'Warning: Property without type found in OntoUML model (named Dermatology) : false', 'Warning: Property without type found in OntoUML model (named availableHours) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.0067877,7.7906341,8.3661866,31,
+18,digitaldoctor2022,True,False,,17.2016972,,"{'Warning: Property without type found in OntoUML model (named SpeechPathology) : false', 'Warning: Property without type found in OntoUML model (named birthdate) : false', 'Warning: Property without type found in OntoUML model (named Gynecologic) : false', 'Warning: Property without type found in OntoUML model (named Rheumatologic) : false', 'Warning: Property without type found in OntoUML model (named Surgical) : false', 'Warning: Property without type found in OntoUML model (named Cardiovascular) : false', 'Warning: Property without type found in OntoUML model (named Musculoskeletal) : false', 'Warning: Property without type found in OntoUML model (named Radiography) : false', 'Warning: Property without type found in OntoUML model (named prescriptionRequired) : false', 'Warning: Property without type found in OntoUML model (named availableHours) : false', 'Warning: Property without type found in OntoUML model (named isAvailableGenerically) : false', 'Warning: Property without type found in OntoUML model (named DietNutrition) : false', 'Warning: Property without type found in OntoUML model (named Urologic) : false', 'Warning: Property without type found in OntoUML model (named Toxicologic) : false', 'Warning: Property without type found in OntoUML model (named symptomWorsening) : false', 'Warning: Property without type found in OntoUML model (named diagnosisMethod) : false', 'Warning: Property without type found in OntoUML model (named Hematologic) : false', 'Warning: Property without type found in OntoUML model (named Geriatric) : false', 'Warning: Property without type found in OntoUML model (named Pediatric) : false', 'Warning: Property without type found in OntoUML model (named Infectious) : false', 'Warning: Property without type found in OntoUML model (named Pulmonary) : false', 'Warning: Property without type found in OntoUML model (named Neurologic) : false', 'Warning: Property without type found in OntoUML model (named Dentistry) : false', 'Warning: Property without type found in OntoUML model (named Endocrine) : false', 'Warning: Property without type found in OntoUML model (named Dermatology) : false', 'Warning: Property without type found in OntoUML model (named Oncologic) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 47 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\digitaldoctor2022\model\digitaldoctor\digitaldoctor\DiagnosticProcedure.java:17: error: '{' expected
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 47 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\digitaldoctor2022\model\digitaldoctor\digitaldoctor\DiagnosticProcedure.java:17: error: '{' expected
     [javac] public class DiagnosticProcedure extends RemoteMedicalProcedure, PresenceMedicalProcedure {
     [javac]                                                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\digitaldoctor2022\model\digitaldoctor\digitaldoctor\TherapeuticProcedure.java:17: error: '{' expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\digitaldoctor2022\model\digitaldoctor\digitaldoctor\TherapeuticProcedure.java:17: error: '{' expected
     [javac] public class TherapeuticProcedure extends RemoteMedicalProcedure, PresenceMedicalProcedure {
     [javac]                                                                 ^
     [javac] 2 errors
 
- [and 0 more lines]",1.0477206,7.4152626,8.0452892,48,Contains property without type
-19,elikan2018brand-identity,True,False,,16.219529,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.1040315,7.5729921,8.5246736,48,Contains property without type
+19,elikan2018brand-identity,True,False,,16.6371846,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 30 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:33: error: variable members is already defined in class Stakeholders
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 30 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:33: error: variable members is already defined in class Stakeholders
     [javac] 	public ArrayList<InternalStakeholders> members = new ArrayList<InternalStakeholders>();
     [javac] 	                                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:38: error: variable members is already defined in class Stakeholders
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:38: error: variable members is already defined in class Stakeholders
     [javac] 	public ArrayList<ExternalStekaholders> members = new ArrayList<ExternalStekaholders>();
     [javac] 	                                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:163: error: method getMembers() is already defined in class Stakeholders
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:163: error: method getMembers() is already defined in class Stakeholders
     [javac] 	public ArrayList<InternalStakeholders> getMembers() {
     [javac] 	                                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:171: error: name clash: setMembers(ArrayList<InternalStakeholders>) and setMembers(ArrayList<OfficialStakeholders>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:171: error: name clash: setMembers(ArrayList<InternalStakeholders>) and setMembers(ArrayList<OfficialStakeholders>) have the same erasure
     [javac] 	public void setMembers(ArrayList<InternalStakeholders> newMembers) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:211: error: method getMembers() is already defined in class Stakeholders
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:211: error: method getMembers() is already defined in class Stakeholders
     [javac] 	public ArrayList<ExternalStekaholders> getMembers() {
     [javac] 	                                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:219: error: name clash: setMembers(ArrayList<ExternalStekaholders>) and setMembers(ArrayList<OfficialStakeholders>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:219: error: name clash: setMembers(ArrayList<ExternalStekaholders>) and setMembers(ArrayList<OfficialStakeholders>) have the same erasure
     [javac] 	public void setMembers(ArrayList<ExternalStekaholders> newMembers) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:164: error: incompatible types: ArrayList<OfficialStakeholders> cannot be converted to ArrayList<InternalStakeholders>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:164: error: incompatible types: ArrayList<OfficialStakeholders> cannot be converted to ArrayList<InternalStakeholders>
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:172: error: incompatible types: ArrayList<InternalStakeholders> cannot be converted to ArrayList<OfficialStakeholders>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:172: error: incompatible types: ArrayList<InternalStakeholders> cannot be converted to ArrayList<OfficialStakeholders>
     [javac] 	    this.members = newMembers;
     [javac] 	                   ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:180: error: incompatible types: InternalStakeholders cannot be converted to OfficialStakeholders
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:180: error: incompatible types: InternalStakeholders cannot be converted to OfficialStakeholders
     [javac] 		this.members.add(internalStakeholdersToAdd);
     [javac] 		                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:196: error: incompatible types: ArrayList<InternalStakeholders> cannot be converted to Collection<? extends OfficialStakeholders>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:196: error: incompatible types: ArrayList<InternalStakeholders> cannot be converted to Collection<? extends OfficialStakeholders>
     [javac] 		this.members.addAll(internalStakeholderssToAdd);
     [javac] 		                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:212: error: incompatible types: ArrayList<OfficialStakeholders> cannot be converted to ArrayList<ExternalStekaholders>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:212: error: incompatible types: ArrayList<OfficialStakeholders> cannot be converted to ArrayList<ExternalStekaholders>
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:220: error: incompatible types: ArrayList<ExternalStekaholders> cannot be converted to ArrayList<OfficialStakeholders>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:220: error: incompatible types: ArrayList<ExternalStekaholders> cannot be converted to ArrayList<OfficialStakeholders>
     [javac] 	    this.members = newMembers;
     [javac] 	                   ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\elikan2018brandidentity\model\brand_identity_ontology\stakeholders\Stakeholders.java:228: error: incompatible types: ExternalStekaholders cannot be converted to OfficialStakeholders
-    [javac] 		this.members.add(externalStekaholdersToAdd);
-    [jav
- [and 6 more lines]",0.9863897,7.2961014,7.9370379,30,
-20,eu-rent-refactored2022,True,True,,16.5330442,,"{'Warning: Property without type found in OntoUML model (named gender) : false', 'Warning: Property without type found in OntoUML model (named statusAgePhase) : false', 'Warning: Property without type found in OntoUML model (named seniority) : false', 'Warning: Property without type found in OntoUML model (named status) : false', 'Warning: Property without type found in OntoUML model (named parentalRole) : false', 'Warning: Property without type found in OntoUML model (named function) : false', 'Warning: Property without type found in OntoUML model (named type) : false'}",,,1.0324584,7.4775346,8.0230512,66,Contains property without type
-21,experiment2013,True,True,,16.0477683,,set(),,,0.9715726,7.1859957,7.8902,22,
-22,formula-one2023,True,True,,16.1100171,,set(),,,0.9851151,7.3694048,7.7554972,26,
-23,fraller2019abc,True,False,,16.2606665,,"{'Warning: Property without type found in OntoUML model (named Budgeted expense) : false', 'Warning: Property without type found in OntoUML model (named Resource type) : false', ""Warning: Empty string found in source model: 'emptystring'"", 'Warning: Property without type found in OntoUML model (named Cost driver rate) : false', 'Warning: Property without type found in OntoUML model (named Finished good ID) : false', 'Warning: Property without type found in OntoUML model (named Planning period ID) : false', 'Warning: Property without type found in OntoUML model (named Standard production coefficient equipment) : false', 'Warning: Property without type found in OntoUML model (named Capacity utilization variance) : false', 'Warning: Property without type found in OntoUML model (named Account ID) : false', 'Warning: Property without type found in OntoUML model (named Quantity) : false', 'Warning: Property without type found in OntoUML model (named Amount of expense) : false', 'Warning: Property without type found in OntoUML model (named Expense charged to products) : false', 'Warning: Property without type found in OntoUML model (named Unit cost) : false', 'Warning: Property without type found in OntoUML model (named Raw material ID) : false', 'Warning: Property without type found in OntoUML model (named Standard production coefficient personnel) : false', 'Warning: Property without type found in OntoUML model (named Variator) : false', 'Warning: Property without type found in OntoUML model (named Flexible budget) : false', 'Warning: Property without type found in OntoUML model (named Budgeted unused capacity) : false', 'Warning: Property without type found in OntoUML model (named Spending variance) : false', 'Warning: Property without type found in OntoUML model (named Capacity driver rate) : false', 'Warning: Property without type found in OntoUML model (named Activity ID) : false', 'Warning: Property without type found in OntoUML model (named Cost driver quantity) : false', 'Warning: Property without type found in OntoUML model (named Planning period) : false', 'Warning: Property without type found in OntoUML model (named Extent of activity level) : false', 'Warning: Property without type found in OntoUML model (named Actual expense) : false', 'Warning: Property without type found in OntoUML model (named Budgeted driver rate) : false', 'Warning: Property without type found in OntoUML model (named Cost type) : false'}","Some files were generated more than once during this generation.
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\
+ [and 8 more lines]",1.0194626,7.4690355,8.1486865,30,
+20,eu-rent-refactored2022,True,True,,17.4174258,,"{'Warning: Property without type found in OntoUML model (named function) : false', 'Warning: Property without type found in OntoUML model (named gender) : false', 'Warning: Property without type found in OntoUML model (named status) : false', 'Warning: Property without type found in OntoUML model (named statusAgePhase) : false', 'Warning: Property without type found in OntoUML model (named seniority) : false', 'Warning: Property without type found in OntoUML model (named parentalRole) : false', 'Warning: Property without type found in OntoUML model (named type) : false'}",,,1.1047408,7.7253688,8.5873162,66,Contains property without type
+21,experiment2013,True,True,,17.3348554,,set(),,,0.9606585,7.7517741,8.6224228,22,
+22,formula-one2023,True,True,,17.4762369,,set(),,,1.0089527,7.956028,8.5112562,26,
+23,fraller2019abc,True,False,,17.1045866,,"{'Warning: Property without type found in OntoUML model (named Flexible budget) : false', 'Warning: Property without type found in OntoUML model (named Budgeted driver rate) : false', 'Warning: Property without type found in OntoUML model (named Resource type) : false', 'Warning: Property without type found in OntoUML model (named Capacity driver rate) : false', 'Warning: Property without type found in OntoUML model (named Expense charged to products) : false', 'Warning: Property without type found in OntoUML model (named Unit cost) : false', 'Warning: Property without type found in OntoUML model (named Planning period) : false', 'Warning: Property without type found in OntoUML model (named Standard production coefficient equipment) : false', 'Warning: Property without type found in OntoUML model (named Budgeted unused capacity) : false', ""Warning: Empty string found in source model: 'emptystring'"", 'Warning: Property without type found in OntoUML model (named Cost type) : false', 'Warning: Property without type found in OntoUML model (named Extent of activity level) : false', 'Warning: Property without type found in OntoUML model (named Capacity utilization variance) : false', 'Warning: Property without type found in OntoUML model (named Variator) : false', 'Warning: Property without type found in OntoUML model (named Cost driver quantity) : false', 'Warning: Property without type found in OntoUML model (named Budgeted expense) : false', 'Warning: Property without type found in OntoUML model (named Finished good ID) : false', 'Warning: Property without type found in OntoUML model (named Planning period ID) : false', 'Warning: Property without type found in OntoUML model (named Actual expense) : false', 'Warning: Property without type found in OntoUML model (named Cost driver rate) : false', 'Warning: Property without type found in OntoUML model (named Standard production coefficient personnel) : false', 'Warning: Property without type found in OntoUML model (named Activity ID) : false', 'Warning: Property without type found in OntoUML model (named Quantity) : false', 'Warning: Property without type found in OntoUML model (named Spending variance) : false', 'Warning: Property without type found in OntoUML model (named Amount of expense) : false', 'Warning: Property without type found in OntoUML model (named Account ID) : false', 'Warning: Property without type found in OntoUML model (named Raw material ID) : false'}","Some files were generated more than once during this generation.
 
 //fraller2019abc/model/rea_ontology/emptystring.java : 2 times
 
-","Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+","Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 35 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:27: error: variable activityLevel is already defined in class Activity
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 35 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:27: error: variable activityLevel is already defined in class Activity
     [javac] 	public ArrayList<ActivityLevel> activityLevel = new ArrayList<ActivityLevel>();
     [javac] 	                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:32: error: variable activityLevel is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:32: error: variable activityLevel is already defined in class Activity
     [javac] 	public ArrayList<ActivityLevel> activityLevel = new ArrayList<ActivityLevel>();
     [javac] 	                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:114: error: method getActivityLevel() is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:114: error: method getActivityLevel() is already defined in class Activity
     [javac] 	public ArrayList<ActivityLevel> getActivityLevel() {
     [javac] 	                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:122: error: method setActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:122: error: method setActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
     [javac] 	public void setActivityLevel(ArrayList<ActivityLevel> newActivityLevel) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:130: error: method addActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:130: error: method addActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
     [javac] 	public void addActivityLevelToActivityLevel(ActivityLevel activityLevelToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:138: error: method removeActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:138: error: method removeActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
     [javac] 	public void removeActivityLevelToActivityLevel(ActivityLevel activityLevelToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:146: error: method addAllActivityLevelToActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:146: error: method addAllActivityLevelToActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
     [javac] 	public void addAllActivityLevelToActivityLevel(ArrayList<ActivityLevel> activityLevelsToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:154: error: method removeAllActivityLevelToActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:154: error: method removeAllActivityLevelToActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
     [javac] 	public void removeAllActivityLevelToActivityLevel(ArrayList<ActivityLevel> activityLevelsToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:162: error: method getActivityLevel() is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:162: error: method getActivityLevel() is already defined in class Activity
     [javac] 	public ArrayList<ActivityLevel> getActivityLevel() {
     [javac] 	                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:170: error: method setActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:170: error: method setActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
     [javac] 	public void setActivityLevel(ArrayList<ActivityLevel> newActivityLevel) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:178: error: method addActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:178: error: method addActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
     [javac] 	public void addActivityLevelToActivityLevel(ActivityLevel activityLevelToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:186: error: method removeActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:186: error: method removeActivityLevelToActivityLevel(ActivityLevel) is already defined in class Activity
     [javac] 	public void removeActivityLevelToActivityLevel(ActivityLevel activityLevelToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:194: error: method addAllActivityLevelToActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:194: error: method addAllActivityLevelToActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
     [javac] 	public void addAllActivityLevelToActivityLevel(ArrayList<ActivityLevel> activityLevelsToAdd) {
-    [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\fraller2019abc\model\rea_ontology\Activity.java:202: error: method removeAllActivityLevelToActivityLevel(ArrayList<ActivityLevel>) is already defined in class Activity
-    [javac] 	pub
- [and 255 more lines]",1.011518,7.3076974,7.9414511,39,"Contains property without type, Contains empty string"
-24,fumagalli2022criminal-investigation,True,True,,16.0099696,,set(),,,0.9558684,7.303523,7.7505782,10,
-25,g809-2015,True,True,,16.0982562,,set(),,,0.93265,7.296955,7.8686512,24,
-26,genealogy2013,True,True,,15.8888401,,set(),,,0.9660132,7.241552,7.6812749,8,
-27,gomes2022digital-technology,True,False,,16.0274613,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+    [
+ [and 257 more lines]",0.9932616,7.8309593,8.2803657,39,"Contains property without type, Contains empty string"
+24,fumagalli2022criminal-investigation,True,True,,16.7791229,,set(),,,1.0188169,7.6305712,8.1297348,10,
+25,g809-2015,True,True,,16.9661673,,set(),,,1.0503908,7.7918685,8.123908,24,
+26,genealogy2013,True,True,,16.7339233,,set(),,,0.9576353,7.6345287,8.1417593,8,
+27,gomes2022digital-technology,True,False,,17.1952919,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 19 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:28: error: variable technicalIdentityOfObjects is already defined in class TechnicalIdentityOfObject
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 19 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:28: error: variable technicalIdentityOfObjects is already defined in class TechnicalIdentityOfObject
     [javac] 	public final ArrayList<ObjectStructure> technicalIdentityOfObjects = new ArrayList<ObjectStructure>();
     [javac] 	                                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:103: error: method getTechnicalIdentityOfObjects() is already defined in class TechnicalIdentityOfObject
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:103: error: method getTechnicalIdentityOfObjects() is already defined in class TechnicalIdentityOfObject
     [javac] 	public ArrayList<ObjectStructure> getTechnicalIdentityOfObjects() {
     [javac] 	                                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:63: error: incompatible types: ArrayList<ObjectStructure> cannot be converted to ArrayList<ObjectFunction>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:63: error: incompatible types: ArrayList<ObjectStructure> cannot be converted to ArrayList<ObjectFunction>
     [javac] 		return this.technicalIdentityOfObjects;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:72: error: incompatible types: ObjectFunction cannot be converted to ObjectStructure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:72: error: incompatible types: ObjectFunction cannot be converted to ObjectStructure
     [javac] 		this.technicalIdentityOfObjects.add(objectFunctionToAdd);
     [javac] 		                                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:88: error: incompatible types: ArrayList<ObjectFunction> cannot be converted to Collection<? extends ObjectStructure>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\gomes2022digitaltechnology\model\short_version_er_model_class_diagram\tdo\TechnicalIdentityOfObject.java:88: error: incompatible types: ArrayList<ObjectFunction> cannot be converted to Collection<? extends ObjectStructure>
     [javac] 		this.technicalIdentityOfObjects.addAll(objectFunctionsToAdd);
     [javac] 		                                       ^
     [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
     [javac] 5 errors
 
- [and 0 more lines]",0.9973997,7.2660126,7.764049,19,
-28,guarino2016value,True,True,,16.1849203,,set(),,,1.0122394,7.2757183,7.8969626,18,
-29,haridy2021egyptian-e-government,True,True,,16.1783476,,set(),,,0.9558655,7.2835887,7.9388934,32,
-30,health-organizations,True,True,,16.0035954,,set(),,,0.9621914,7.2220022,7.8194018,24,
-31,idaf2013,True,False,,17.2700813,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",0.9732849,7.894212,8.327795,19,
+28,guarino2016value,True,True,,17.2237391,,set(),,,1.0501907,7.7885413,8.3850071,18,
+29,haridy2021egyptian-e-government,True,True,,16.6829451,,set(),,,0.9939015,7.6723476,8.016696,32,
+30,health-organizations,True,True,,16.9589488,,set(),,,0.9982812,7.6683313,8.2923363,24,
+31,idaf2013,True,False,,16.8464793,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 47 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\TechnicalAdmnistrativeSupport.java:27: error: variable members is already defined in class TechnicalAdmnistrativeSupport
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 47 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\TechnicalAdmnistrativeSupport.java:27: error: variable members is already defined in class TechnicalAdmnistrativeSupport
     [javac] 	public ArrayList<AdministrativeSupport> members = new ArrayList<AdministrativeSupport>();
     [javac] 	                                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\TechnicalAdmnistrativeSupport.java:111: error: method getMembers() is already defined in class TechnicalAdmnistrativeSupport
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\TechnicalAdmnistrativeSupport.java:111: error: method getMembers() is already defined in class TechnicalAdmnistrativeSupport
     [javac] 	public ArrayList<AdministrativeSupport> getMembers() {
     [javac] 	                                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\TechnicalAdmnistrativeSupport.java:119: error: name clash: setMembers(ArrayList<AdministrativeSupport>) and setMembers(ArrayList<TechnicalSupport>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\TechnicalAdmnistrativeSupport.java:119: error: name clash: setMembers(ArrayList<AdministrativeSupport>) and setMembers(ArrayList<TechnicalSupport>) have the same erasure
     [javac] 	public void setMembers(ArrayList<AdministrativeSupport> newMembers) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:27: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:27: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<AnimalHealthInspector> members = new ArrayList<AnimalHealthInspector>();
     [javac] 	                                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:32: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:32: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<LandDevelopmentTechnician> members = new ArrayList<LandDevelopmentTechnician>();
     [javac] 	                                            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:37: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:37: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<CartographyTechnician> members = new ArrayList<CartographyTechnician>();
     [javac] 	                                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:42: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:42: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<NaturalResourcesTechnician> members = new ArrayList<NaturalResourcesTechnician>();
     [javac] 	                                             ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:47: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:47: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<LaboratoryTechnician> members = new ArrayList<LaboratoryTechnician>();
     [javac] 	                                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:131: error: method getMembers() is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:131: error: method getMembers() is already defined in class Finalistico
     [javac] 	public ArrayList<AnimalHealthInspector> getMembers() {
     [javac] 	                                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:139: error: name clash: setMembers(ArrayList<AnimalHealthInspector>) and setMembers(ArrayList<PlantHealthInspector>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:139: error: name clash: setMembers(ArrayList<AnimalHealthInspector>) and setMembers(ArrayList<PlantHealthInspector>) have the same erasure
     [javac] 	public void setMembers(ArrayList<AnimalHealthInspector> newMembers) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:179: error: method getMembers() is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:179: error: method getMembers() is already defined in class Finalistico
     [javac] 	public ArrayList<LandDevelopmentTechnician> getMembers() {
     [javac] 	                                            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:187: error: name clash: setMembers(ArrayList<LandDevelopmentTechnician>) and setMembers(ArrayList<PlantHealthInspector>) have the same erasure
-    [javac] 	public void setMembers(ArrayList<LandDevelopmentTechnician> newMembers) {
-    [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:227: error: method getM
- [and 92 more lines]",0.9808602,8.0150037,8.2742174,46,
-32,internal-affairs2013,True,True,,16.9272222,,set(),,,1.1613774,7.5436044,8.2222404,61,
-33,internship,True,True,,16.4745315,,"{'Warning: Property without type found in OntoUML model (named hours per day) : false', 'Warning: Property without type found in OntoUML model (named income) : false'}",,,1.025113,7.4811308,7.9682877,26,Contains property without type
-34,it-infrastructure,True,False,,16.5765109,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\idaf2013\model\ontology\package__idaf_model\idaf_model\Finalistico.java:187: error: name clash: setMembers(ArrayList<LandDevelopmentTechnician>) and setMembers(ArrayList<PlantHealthInspector>) have the same erasure
+    [javac] 	public
+ [and 94 more lines]",1.0144973,7.6280384,8.2039436,46,
+32,internal-affairs2013,True,True,,17.3884178,,set(),,,1.0782222,7.9375593,8.3726363,61,
+33,internship,True,True,,17.0370956,,"{'Warning: Property without type found in OntoUML model (named hours per day) : false', 'Warning: Property without type found in OntoUML model (named income) : false'}",,,1.016852,7.8317157,8.1885279,26,Contains property without type
+34,it-infrastructure,True,False,,17.4039464,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 29 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:27: error: variable members is already defined in class ITTeam
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 29 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:27: error: variable members is already defined in class ITTeam
     [javac] 	public Manager members = null;
     [javac] 	               ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:99: error: method getMembers() is already defined in class ITTeam
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:99: error: method getMembers() is already defined in class ITTeam
     [javac] 	public Manager getMembers() {
     [javac] 	               ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:100: error: incompatible types: ArrayList<Technician> cannot be converted to Manager
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:100: error: incompatible types: ArrayList<Technician> cannot be converted to Manager
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:108: error: incompatible types: Manager cannot be converted to ArrayList<Technician>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\itinfrastructure\model\ontouml_model_repository\sc_itinfrastructure\sc_itinfrastructure_english\ITTeam.java:108: error: incompatible types: Manager cannot be converted to ArrayList<Technician>
     [javac] 		this.members = newMembers;
     [javac] 		               ^
     [javac] 4 errors
 
- [and 0 more lines]",1.019429,7.4910602,8.0660217,31,
-35,jacobs2022sdpontology,True,False,,16.5944318,,{'Warning: Property without type found in OntoUML model (named effort) : false'},,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",0.9958477,7.9100673,8.4980314,31,
+35,jacobs2022sdpontology,True,False,,17.5629017,,{'Warning: Property without type found in OntoUML model (named effort) : false'},,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 33 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:36: error: variable role is already defined in class BusinessRole
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 33 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:36: error: variable role is already defined in class BusinessRole
     [javac] 	public final Role role = null;
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:108: error: method getRole() is already defined in class BusinessRole
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:108: error: method getRole() is already defined in class BusinessRole
     [javac] 	public Role getRole() {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\Team.java:141: error: method getSoftwareDevelopmentProject() is already defined in class Team
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\Team.java:141: error: method getSoftwareDevelopmentProject() is already defined in class Team
     [javac] 	public SoftwareDevelopmentProject getSoftwareDevelopmentProject() {
     [javac] 	                                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\ProgrammingEnvironment.java:135: error: method getSoftwareDevelopmentProject() is already defined in class ProgrammingEnvironment
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\ProgrammingEnvironment.java:135: error: method getSoftwareDevelopmentProject() is already defined in class ProgrammingEnvironment
     [javac] 	public SoftwareDevelopmentProject getSoftwareDevelopmentProject() {
     [javac] 	                                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:61: error: incompatible types: Role cannot be converted to Roles
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:61: error: incompatible types: Role cannot be converted to Roles
     [javac] 		return this.role;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:69: error: cannot assign a value to final variable role
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:69: error: cannot assign a value to final variable role
     [javac] 		this.role = newRole;
     [javac] 		    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:69: error: incompatible types: Roles cannot be converted to Role
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\jacobs2022sdpontology\model\ontology\BusinessRole.java:69: error: incompatible types: Roles cannot be converted to Role
     [javac] 		this.role = newRole;
     [javac] 		            ^
     [javac] 7 errors
 
- [and 0 more lines]",1.038559,7.4714964,8.0843764,34,Contains property without type
-36,junior2018o4c,True,False,,16.2195707,,"{'Warning: Property without type found in OntoUML model (named STAKEHOLDER) : false', 'Warning: Property without type found in OntoUML model (named BUSINESS_DOC) : false', 'Warning: Property without type found in OntoUML model (named CATALOGE) : false', 'Warning: Property without type found in OntoUML model (named NEGATIVE) : false', 'Warning: Property without type found in OntoUML model (named POSITIVE) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.0662818,7.9938572,8.5027627,34,Contains property without type
+36,junior2018o4c,True,False,,16.6325583,,"{'Warning: Property without type found in OntoUML model (named BUSINESS_DOC) : false', 'Warning: Property without type found in OntoUML model (named POSITIVE) : false', 'Warning: Property without type found in OntoUML model (named CATALOGE) : false', 'Warning: Property without type found in OntoUML model (named NEGATIVE) : false', 'Warning: Property without type found in OntoUML model (named STAKEHOLDER) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 11 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:37: error: variable relationship is already defined in class Concern
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 11 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:37: error: variable relationship is already defined in class Concern
     [javac] 	public ArrayList<Relationship> relationship = new ArrayList<Relationship>();
     [javac] 	                               ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:205: error: method getRelationship() is already defined in class Concern
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:205: error: method getRelationship() is already defined in class Concern
     [javac] 	public ArrayList<Relationship> getRelationship() {
     [javac] 	                               ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:213: error: method setRelationship(ArrayList<Relationship>) is already defined in class Concern
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:213: error: method setRelationship(ArrayList<Relationship>) is already defined in class Concern
     [javac] 	public void setRelationship(ArrayList<Relationship> newRelationship) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:221: error: method addRelationshipToRelationship(Relationship) is already defined in class Concern
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:221: error: method addRelationshipToRelationship(Relationship) is already defined in class Concern
     [javac] 	public void addRelationshipToRelationship(Relationship relationshipToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:229: error: method removeRelationshipToRelationship(Relationship) is already defined in class Concern
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:229: error: method removeRelationshipToRelationship(Relationship) is already defined in class Concern
     [javac] 	public void removeRelationshipToRelationship(Relationship relationshipToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:237: error: method addAllRelationshipToRelationship(ArrayList<Relationship>) is already defined in class Concern
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:237: error: method addAllRelationshipToRelationship(ArrayList<Relationship>) is already defined in class Concern
     [javac] 	public void addAllRelationshipToRelationship(ArrayList<Relationship> relationshipsToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:245: error: method removeAllRelationshipToRelationship(ArrayList<Relationship>) is already defined in class Concern
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Concern.java:245: error: method removeAllRelationshipToRelationship(ArrayList<Relationship>) is already defined in class Concern
     [javac] 	public void removeAllRelationshipToRelationship(ArrayList<Relationship> relationshipsToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Relationship.java:26: error: variable concern is already defined in class Relationship
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Relationship.java:26: error: variable concern is already defined in class Relationship
     [javac] 	public final Concern concern = null;
     [javac] 	                     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Relationship.java:58: error: method getConcern() is already defined in class Relationship
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\junior2018o4c\model\junior2018obascid\model\Relationship.java:58: error: method getConcern() is already defined in class Relationship
     [javac] 	public Concern getConcern() {
     [javac] 	               ^
     [javac] 9 errors
 
- [and 0 more lines]",0.9564367,7.3498453,7.9132887,11,Contains property without type
-37,khantong2020ontology,True,True,,16.9605708,,set(),,,1.0025186,7.7618627,8.1961895,30,
-38,kritz2020ontobg,False,False,read_ontouml,1.0228577,"Buildfile: C:\Users\64guu\eclipse-ontouml\nl.guusgrievink.emf.ontouml.model\build.xml
+ [and 0 more lines]",1.009519,7.5262291,8.0968102,11,Contains property without type
+37,khantong2020ontology,True,True,,17.3737983,,set(),,,0.9967431,7.8532661,8.5237891,30,
+38,kritz2020ontobg,False,False,read_ontouml,1.0245937,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\nl.guusgrievink.emf.ontouml.model\build.xml
 
 convertFromModelRepo:
-     [java] Reading from: C:\Users\64guu\PycharmProjects\OntoUMLTesting\TransformationChainTest\modelJsons-relationStereotypesRenamed\kritz2020ontobg.json
+     [java] Reading from: C:\Users\64guu\PycharmProjects\OntoUMLTesting\OntoUML2JavaAutomatedValidation\modelJsons-relationStereotypesRenamed\kritz2020ontobg.json
      [java] Exception in thread ""main"" java.lang.IllegalArgumentException: The value 'causal' is not a valid enumerator of 'RelationStereotype'
      [java] 	at nl.guusgrievink.emf.ontouml.model.ontouml.impl.OntoumlFactoryImpl.createRelationStereotypeFromString(OntoumlFactoryImpl.java:349)
      [java] 	at nl.guusgrievink.emf.ontouml.model.ontouml.impl.OntoumlFactoryImpl.createFromString(OntoumlFactoryImpl.java:121)
@@ -504,324 +494,317 @@ convertFromModelRepo:
      [java] 	at org.eclipse.emfcloud.jackson.resource.JsonResource.doLoad(JsonResource.java:184)
      [java] 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
      [java] 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
-     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.convertOntoUmlJsonToXmi(readOntoUML.java:70)
-     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.main(readOntoUML.java:45)
+     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.convertOntoUmlJsonToXmi(readOntoUML.java:60)
+     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.main(readOntoUML.java:41)
 
- [and 0 more lines]",,,,1.0228577,"(-1,)","(-1,)",179,
-39,laurier2018rea,True,True,,16.5688801,,set(),,,1.0320629,7.4017934,8.1350238,23,
-40,library,True,False,,16.8410884,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",,,,1.0245937,"(-1,)","(-1,)",179,
+39,laurier2018rea,True,True,,16.9789174,,set(),,,1.0112658,7.6768385,8.2908131,23,
+40,library,True,False,,17.1532139,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 42 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:26: error: variable members is already defined in class Collection
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 42 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:26: error: variable members is already defined in class Collection
     [javac] 	public Dvd members = null;
     [javac] 	           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:31: error: variable members is already defined in class Collection
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:31: error: variable members is already defined in class Collection
     [javac] 	public Videotape members = null;
     [javac] 	                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:36: error: variable members is already defined in class Collection
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:36: error: variable members is already defined in class Collection
     [javac] 	public Book members = null;
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:76: error: method getMembers() is already defined in class Collection
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:76: error: method getMembers() is already defined in class Collection
     [javac] 	public Dvd getMembers() {
     [javac] 	           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:92: error: method getMembers() is already defined in class Collection
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:92: error: method getMembers() is already defined in class Collection
     [javac] 	public Videotape getMembers() {
     [javac] 	                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:108: error: method getMembers() is already defined in class Collection
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:108: error: method getMembers() is already defined in class Collection
     [javac] 	public Book getMembers() {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:77: error: incompatible types: Periodical cannot be converted to Dvd
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:77: error: incompatible types: Periodical cannot be converted to Dvd
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:85: error: incompatible types: Dvd cannot be converted to Periodical
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:85: error: incompatible types: Dvd cannot be converted to Periodical
     [javac] 		this.members = newMembers;
     [javac] 		               ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:93: error: incompatible types: Periodical cannot be converted to Videotape
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:93: error: incompatible types: Periodical cannot be converted to Videotape
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:101: error: incompatible types: Videotape cannot be converted to Periodical
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:101: error: incompatible types: Videotape cannot be converted to Periodical
     [javac] 		this.members = newMembers;
     [javac] 		               ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:109: error: incompatible types: Periodical cannot be converted to Book
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:109: error: incompatible types: Periodical cannot be converted to Book
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:117: error: incompatible types: Book cannot be converted to Periodical
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\library\model\ontology\diagram1\Collection.java:117: error: incompatible types: Book cannot be converted to Periodical
     [javac] 		this.members = newMembers;
     [javac] 		               ^
     [javac] 12 errors
 
- [and 0 more lines]",1.0254816,7.6063705,8.2092363,43,
-41,machacova2023gym,True,True,,16.6675432,,"{'Warning: Property without type found in OntoUML model (named education_level) : false', 'Warning: Property without type found in OntoUML model (named street_name) : false', 'Warning: Property without type found in OntoUML model (named street_number) : false', 'Warning: Property without type found in OntoUML model (named name) : false', 'Warning: Property without type found in OntoUML model (named country_name) : false', 'Warning: Property without type found in OntoUML model (named surname) : false', 'Warning: Property without type found in OntoUML model (named city_name) : false', 'Warning: Property without type found in OntoUML model (named sex) : false', 'Warning: Property without type found in OntoUML model (named birth_date) : false'}",,,1.0158395,7.5053594,8.1463443,41,Contains property without type
-42,martinez2013human-genome,True,True,,16.274982,,set(),,,1.0103984,7.3875128,7.8770708,10,
-43,music-ontology,True,False,,16.9732675,,"{'Warning: Property without type found in OntoUML model (named time plus measure) : false', 'Warning: Property without type found in OntoUML model (named identifier) : false', 'Warning: Property without type found in OntoUML model (named name) : false', 'Warning: Property without type found in OntoUML model (named duration) : false', 'Warning: Property without type found in OntoUML model (named completion) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.008548,7.6552791,8.4893868,43,
+41,machacova2023gym,True,True,,17.4125698,,"{'Warning: Property without type found in OntoUML model (named name) : false', 'Warning: Property without type found in OntoUML model (named sex) : false', 'Warning: Property without type found in OntoUML model (named birth_date) : false', 'Warning: Property without type found in OntoUML model (named street_number) : false', 'Warning: Property without type found in OntoUML model (named city_name) : false', 'Warning: Property without type found in OntoUML model (named street_name) : false', 'Warning: Property without type found in OntoUML model (named education_level) : false', 'Warning: Property without type found in OntoUML model (named surname) : false', 'Warning: Property without type found in OntoUML model (named country_name) : false'}",,,1.0283627,7.7710135,8.6131936,41,Contains property without type
+42,martinez2013human-genome,True,True,,16.9932302,,set(),,,1.0222898,7.667036,8.3039044,10,
+43,music-ontology,True,False,,16.9573264,,"{'Warning: Property without type found in OntoUML model (named name) : false', 'Warning: Property without type found in OntoUML model (named identifier) : false', 'Warning: OntoUML model contains GeneralizationSets for Phase partitions (multiple) For class: Individual Moviment', 'Warning: Property without type found in OntoUML model (named completion) : false', 'Warning: Property without type found in OntoUML model (named duration) : false', 'Warning: Property without type found in OntoUML model (named time plus measure) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 38 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\musicontology\model\music_ontology\music_ontology\MusicalGroup.java:46: error: getMembers() in MusicalGroup cannot override getMembers() in ArtisticGroup
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 38 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\musicontology\model\music_ontology\music_ontology\MusicalGroup.java:46: error: getMembers() in MusicalGroup cannot override getMembers() in ArtisticGroup
     [javac] 	public ArrayList<MusicalMember> getMembers() {
     [javac] 	                                ^
     [javac]   return type ArrayList<MusicalMember> is not compatible with ArrayList<ArtisticMember>
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\musicontology\model\music_ontology\music_ontology\MusicalGroup.java:54: error: name clash: setMembers(ArrayList<MusicalMember>) in MusicalGroup and setMembers(ArrayList<ArtisticMember>) in ArtisticGroup have the same erasure, yet neither overrides the other
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\musicontology\model\music_ontology\music_ontology\MusicalGroup.java:54: error: name clash: setMembers(ArrayList<MusicalMember>) in MusicalGroup and setMembers(ArrayList<ArtisticMember>) in ArtisticGroup have the same erasure, yet neither overrides the other
     [javac] 	public void setMembers(ArrayList<MusicalMember> newMembers) {
     [javac] 	            ^
     [javac] 2 errors
 
- [and 0 more lines]",1.0990187,7.7478809,8.1263679,42,Contains property without type
-44,neves2021grain-production,True,True,,16.3027788,,set(),,,0.9830621,7.3852433,7.9344734,18,
-45,online-mentoring,True,True,,16.4795318,,set(),,,1.02541,7.3946315,8.0594903,29,
-46,pereira2015doacao-orgaos,True,True,,16.4756895,,set(),,,1.012963,7.4236922,8.0390343,25,
-47,pereira2020ontotrans,True,False,,16.5678724,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.0385242,7.6808135,8.2379887,42,"Contains GeneralizationSet, Contains property without type"
+44,neves2021grain-production,True,True,,17.0237547,,set(),,,0.9627888,7.6819008,8.3790651,18,
+45,online-mentoring,True,True,,16.7172927,,set(),,,1.0081846,7.5059024,8.2032057,29,
+46,pereira2015doacao-orgaos,True,True,,16.9318176,,set(),,,0.9956366,7.8416641,8.0945169,25,
+47,pereira2020ontotrans,True,False,,17.2108687,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 35 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Informativeness.java:103: error: method getHelp() is already defined in interface Informativeness
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 35 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Informativeness.java:103: error: method getHelp() is already defined in interface Informativeness
     [javac] 	ArrayList<Correctness> getHelp();
     [javac] 	                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Informativeness.java:110: error: name clash: setHelp(ArrayList<Correctness>) and setHelp(ArrayList<Consistency>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Informativeness.java:110: error: name clash: setHelp(ArrayList<Correctness>) and setHelp(ArrayList<Consistency>) have the same erasure
     [javac] 	void setHelp(ArrayList<Correctness> newHelp);
     [javac] 	     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Traceability.java:38: error: method getImpact() is already defined in interface Traceability
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Traceability.java:38: error: method getImpact() is already defined in interface Traceability
     [javac] 	ArrayList<Impact> getImpact();
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Traceability.java:45: error: method setImpact(ArrayList<Impact>) is already defined in interface Traceability
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Traceability.java:45: error: method setImpact(ArrayList<Impact>) is already defined in interface Traceability
     [javac] 	void setImpact(ArrayList<Impact> newImpact);
     [javac] 	     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Impact.java:142: error: method getTraceability() is already defined in interface Impact
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Impact.java:142: error: method getTraceability() is already defined in interface Impact
     [javac] 	ArrayList<Traceability> getTraceability();
     [javac] 	                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Impact.java:149: error: method setTraceability(ArrayList<Traceability>) is already defined in interface Impact
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\pereira2020ontotrans\model\pereira2020ontotrans\Impact.java:149: error: method setTraceability(ArrayList<Traceability>) is already defined in interface Impact
     [javac] 	void setTraceability(ArrayList<Traceability> newTraceability);
     [javac] 	     ^
     [javac] 6 errors
 
- [and 0 more lines]",1.0681392,7.4976873,8.0020459,35,
-48,photography,True,False,,16.2702997,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.0548105,7.7858031,8.3702551,35,
+48,photography,True,False,,17.3246161,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 18 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:26: error: variable members is already defined in class Archive
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 18 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:26: error: variable members is already defined in class Archive
     [javac] 	public PrincipleOfRespectForOriginalOrder members = null;
     [javac] 	                                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:36: error: variable members is already defined in class Archive
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:36: error: variable members is already defined in class Archive
     [javac] 	public PrincipleOfProvenance members = null;
     [javac] 	                             ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:76: error: method getMembers() is already defined in class Archive
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:76: error: method getMembers() is already defined in class Archive
     [javac] 	public PrincipleOfRespectForOriginalOrder getMembers() {
     [javac] 	                                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:108: error: method getMembers() is already defined in class Archive
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:108: error: method getMembers() is already defined in class Archive
     [javac] 	public PrincipleOfProvenance getMembers() {
     [javac] 	                             ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:77: error: incompatible types: TheoryOfTheTreeAges cannot be converted to PrincipleOfRespectForOriginalOrder
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:77: error: incompatible types: TheoryOfTheTreeAges cannot be converted to PrincipleOfRespectForOriginalOrder
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:85: error: incompatible types: PrincipleOfRespectForOriginalOrder cannot be converted to TheoryOfTheTreeAges
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:85: error: incompatible types: PrincipleOfRespectForOriginalOrder cannot be converted to TheoryOfTheTreeAges
     [javac] 		this.members = newMembers;
     [javac] 		               ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:109: error: incompatible types: TheoryOfTheTreeAges cannot be converted to PrincipleOfProvenance
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:109: error: incompatible types: TheoryOfTheTreeAges cannot be converted to PrincipleOfProvenance
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:117: error: incompatible types: PrincipleOfProvenance cannot be converted to TheoryOfTheTreeAges
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\photography\model\photo2015ontology\Archive.java:117: error: incompatible types: PrincipleOfProvenance cannot be converted to TheoryOfTheTreeAges
     [javac] 		this.members = newMembers;
     [javac] 		               ^
     [javac] 8 errors
 
- [and 0 more lines]",0.9814848,7.4105255,7.8782894,18,
-49,plato-ontology2019,True,False,,17.0760037,,"{'Warning: Property without type found in OntoUML model (named sex) : false', 'Warning: Property without type found in OntoUML model (named attribute) : false', 'Warning: Property without type found in OntoUML model (named motivation) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",0.9563301,7.8623664,8.5059196,18,
+49,plato-ontology2019,True,False,,17.8682188,,"{'Warning: Property without type found in OntoUML model (named sex) : false', 'Warning: Property without type found in OntoUML model (named motivation) : false', 'Warning: Property without type found in OntoUML model (named attribute) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 70 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:37: error: variable members is already defined in class ProducerPerson
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 70 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:37: error: variable members is already defined in class ProducerPerson
     [javac] 	public ArrayList<Family> members = new ArrayList<Family>();
     [javac] 	                         ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:165: error: method getMembers() is already defined in class ProducerPerson
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:165: error: method getMembers() is already defined in class ProducerPerson
     [javac] 	public ArrayList<Family> getMembers() {
     [javac] 	                         ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:173: error: name clash: setMembers(ArrayList<Family>) and setMembers(ArrayList<Producers>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:173: error: name clash: setMembers(ArrayList<Family>) and setMembers(ArrayList<Producers>) have the same erasure
     [javac] 	public void setMembers(ArrayList<Family> newMembers) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\HumanSoul.java:53: error: variable reason is already defined in class HumanSoul
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\HumanSoul.java:53: error: variable reason is already defined in class HumanSoul
     [javac] 	public Reason reason = null;
     [javac] 	              ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\HumanSoul.java:210: error: method getReason() is already defined in class HumanSoul
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\HumanSoul.java:210: error: method getReason() is already defined in class HumanSoul
     [javac] 	public Reason getReason() {
     [javac] 	              ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\HumanSoul.java:218: error: method setReason(Reason) is already defined in class HumanSoul
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\HumanSoul.java:218: error: method setReason(Reason) is already defined in class HumanSoul
     [javac] 	public void setReason(Reason newReason) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\Reason.java:51: error: variable humanSoul is already defined in class Reason
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\Reason.java:51: error: variable humanSoul is already defined in class Reason
     [javac] 	public HumanSoul humanSoul = null;
     [javac] 	                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\Reason.java:186: error: method getHumanSoul() is already defined in class Reason
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\Reason.java:186: error: method getHumanSoul() is already defined in class Reason
     [javac] 	public HumanSoul getHumanSoul() {
     [javac] 	                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\Reason.java:194: error: method setHumanSoul(HumanSoul) is already defined in class Reason
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\Reason.java:194: error: method setHumanSoul(HumanSoul) is already defined in class Reason
     [javac] 	public void setHumanSoul(HumanSoul newHumanSoul) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:166: error: incompatible types: ArrayList<Producers> cannot be converted to ArrayList<Family>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:166: error: incompatible types: ArrayList<Producers> cannot be converted to ArrayList<Family>
     [javac] 		return this.members;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:174: error: incompatible types: ArrayList<Family> cannot be converted to ArrayList<Producers>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:174: error: incompatible types: ArrayList<Family> cannot be converted to ArrayList<Producers>
     [javac] 	    this.members = newMembers;
     [javac] 	                   ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:182: error: incompatible types: Family cannot be converted to Producers
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:182: error: incompatible types: Family cannot be converted to Producers
     [javac] 		this.members.add(familyToAdd);
     [javac] 		                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:198: error: incompatible types: ArrayList<Family> cannot be converted to Collection<? extends Producers>
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\ProducerPerson.java:198: error: incompatible types: ArrayList<Family> cannot be converted to Collection<? extends Producers>
     [javac] 		this.members.addAll(familysToAdd);
     [javac] 		                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\NameBearerObject.java:99: error: getForm() in NameBearerObject cannot override getForm() in Particular
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\NameBearerObject.java:99: error: getForm() in NameBearerObject cannot override getForm() in Particular
     [javac] 	public Form getForm() {
     [javac] 	            ^
     [javac]   return type Form is not compatible with ArrayList<Form>
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\platoontology2019\model\platoontology\SpecificFormOfTheName.java:46: error: getName() in SpecificFormOfTheName cannot override getName() in Form
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\platoontology2019\model\platoontology\SpecificFormOfTheName.java:46: error: getName() in SpecificFormOfTheName cannot override getName() in Form
     [javac] 	public ArrayList<Name> getName() {
-    [javac] 	                       ^
-    [javac]   return type ArrayList<Name> is not compatible with String
-    [javac] Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
-    [javac] 15 errors
-
- [and 0 more lines]",1.0638071,7.6385456,8.373651,73,Contains property without type
-50,project-assets2013,True,True,,16.5528236,,"{'Warning: Property without type found in OntoUML model (named dataAvalia??o) : false', 'Warning: Property without type found in OntoUML model (named crit?rosDeAceita??o) : false', 'Warning: Property without type found in OntoUML model (named dataAvalia??es) : false', 'Warning: Property without type found in OntoUML model (named informa??oDeProjeto) : false', 'Warning: Property without type found in OntoUML model (named informacaoProjeto) : false', 'Warning: Property without type found in OntoUML model (named notasDeCertifica??o) : false', 'Warning: Property without type found in OntoUML model (named notasDeClassifica??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeClassifica??o) : false', 'Warning: Property without type found in OntoUML model (named notasDeAceita??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeAvalia??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeCertifica??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeDescontinuidade) : false', 'Warning: Property without type found in OntoUML model (named defini??oDeAtivo) : false', 'Warning: Property without type found in OntoUML model (named notasDeAvalia??o) : false', 'Warning: Property without type found in OntoUML model (named notasDeDescontinuidade) : false'}",,,1.0571427,7.4376644,8.0580165,19,Contains property without type
-51,project-management-ontology,True,True,,16.3846058,,set(),,,0.9989537,7.4857949,7.8998572,14,
-52,public-expense-ontology2020,True,True,,16.7674873,,set(),,,0.994218,7.6217649,8.1515044,42,
-53,public-organization2013,True,False,,16.9121235,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+    [javac]
+ [and 4 more lines]",1.0629198,8.1543098,8.6509892,73,Contains property without type
+50,project-assets2013,True,True,,16.9814506,,"{'Warning: Property without type found in OntoUML model (named notasDeAvalia??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeCertifica??o) : false', 'Warning: Property without type found in OntoUML model (named dataAvalia??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeClassifica??o) : false', 'Warning: Property without type found in OntoUML model (named notasDeClassifica??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeAvalia??o) : false', 'Warning: Property without type found in OntoUML model (named informa??oDeProjeto) : false', 'Warning: Property without type found in OntoUML model (named notasDeAceita??o) : false', 'Warning: Property without type found in OntoUML model (named informacaoProjeto) : false', 'Warning: Property without type found in OntoUML model (named crit?rosDeAceita??o) : false', 'Warning: Property without type found in OntoUML model (named dataAvalia??es) : false', 'Warning: Property without type found in OntoUML model (named notasDeDescontinuidade) : false', 'Warning: Property without type found in OntoUML model (named notasDeCertifica??o) : false', 'Warning: Property without type found in OntoUML model (named crit?riosDeDescontinuidade) : false', 'Warning: Property without type found in OntoUML model (named defini??oDeAtivo) : false'}",,,1.0535723,7.6697866,8.2580917,19,Contains property without type
+51,project-management-ontology,True,True,,17.0816199,,set(),,,1.0425461,7.7064229,8.3326509,14,
+52,public-expense-ontology2020,True,True,,17.3441254,,set(),,,1.0428067,7.7368255,8.5644932,42,
+53,public-organization2013,True,False,,17.1071107,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 47 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\ApoioTecnicoAdministrativo.java:27: error: variable members is already defined in class ApoioTecnicoAdministrativo
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 47 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\ApoioTecnicoAdministrativo.java:27: error: variable members is already defined in class ApoioTecnicoAdministrativo
     [javac] 	public ArrayList<SuporteTecnico> members = new ArrayList<SuporteTecnico>();
     [javac] 	                                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\ApoioTecnicoAdministrativo.java:111: error: method getMembers() is already defined in class ApoioTecnicoAdministrativo
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\ApoioTecnicoAdministrativo.java:111: error: method getMembers() is already defined in class ApoioTecnicoAdministrativo
     [javac] 	public ArrayList<SuporteTecnico> getMembers() {
     [javac] 	                                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\ApoioTecnicoAdministrativo.java:119: error: name clash: setMembers(ArrayList<SuporteTecnico>) and setMembers(ArrayList<SuporteAdministrativo>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\ApoioTecnicoAdministrativo.java:119: error: name clash: setMembers(ArrayList<SuporteTecnico>) and setMembers(ArrayList<SuporteAdministrativo>) have the same erasure
     [javac] 	public void setMembers(ArrayList<SuporteTecnico> newMembers) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:27: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:27: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<TecnicoRecursosNaturais> members = new ArrayList<TecnicoRecursosNaturais>();
     [javac] 	                                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:32: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:32: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<TecnicoSanidadeInspecaoAnimal> members = new ArrayList<TecnicoSanidadeInspecaoAnimal>();
     [javac] 	                                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:37: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:37: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<TecnicoDesenvolvimentoFundiario> members = new ArrayList<TecnicoDesenvolvimentoFundiario>();
     [javac] 	                                                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:42: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:42: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<TecnicoSanidadeInspecaoVegetal> members = new ArrayList<TecnicoSanidadeInspecaoVegetal>();
     [javac] 	                                                 ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:47: error: variable members is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:47: error: variable members is already defined in class Finalistico
     [javac] 	public ArrayList<TecnicoCartografia> members = new ArrayList<TecnicoCartografia>();
     [javac] 	                                     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:131: error: method getMembers() is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:131: error: method getMembers() is already defined in class Finalistico
     [javac] 	public ArrayList<TecnicoRecursosNaturais> getMembers() {
     [javac] 	                                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:139: error: name clash: setMembers(ArrayList<TecnicoRecursosNaturais>) and setMembers(ArrayList<TecnicoLaboratorio>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:139: error: name clash: setMembers(ArrayList<TecnicoRecursosNaturais>) and setMembers(ArrayList<TecnicoLaboratorio>) have the same erasure
     [javac] 	public void setMembers(ArrayList<TecnicoRecursosNaturais> newMembers) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:179: error: method getMembers() is already defined in class Finalistico
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:179: error: method getMembers() is already defined in class Finalistico
     [javac] 	public ArrayList<TecnicoSanidadeInspecaoAnimal> getMembers() {
     [javac] 	                                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:187: error: name clash: setMembers(ArrayList<TecnicoSanidadeInspecaoAnimal>) and setMembers(ArrayList<TecnicoLaboratorio>) have the same erasure
-    [javac] 	public void setMembers(ArrayList<TecnicoSanidadeInspecaoAnimal> newMembers) {
-    [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCod
- [and 92 more lines]",1.081103,7.5198408,8.3111797,46,
-54,public-tender,True,False,,17.3375097,,"{'Warning: Property without type found in OntoUML model (named name) : false', 'Warning: Property without type found in OntoUML model (named marital) : false', 'Warning: Property without type found in OntoUML model (named nationality) : false', 'Warning: Property without type found in OntoUML model (named reserveFleet) : false', 'Warning: Property without type found in OntoUML model (named companies) : false', 'Warning: Property without type found in OntoUML model (named address) : false', 'Warning: Property without type found in OntoUML model (named age) : false', 'Warning: Property without type found in OntoUML model (named lines) : false', 'Warning: Property without type found in OntoUML model (named CPF) : false', 'Warning: Property without type found in OntoUML model (named profession) : false', 'Warning: Property without type found in OntoUML model (named RG) : false', 'Warning: Property without type found in OntoUML model (named term) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publicorganization2013\model\idafstructv03__maria\ontouml\idaf\Finalistico.java:187: error: name clash: setMembers(ArrayList<TecnicoSanid
+ [and 95 more lines]",1.0903248,7.6469482,8.3698377,46,
+54,public-tender,True,False,,17.7092371,,"{'Warning: Property without type found in OntoUML model (named CPF) : false', 'Warning: Property without type found in OntoUML model (named term) : false', 'Warning: Property without type found in OntoUML model (named name) : false', 'Warning: Property without type found in OntoUML model (named profession) : false', 'Warning: Property without type found in OntoUML model (named age) : false', 'Warning: Property without type found in OntoUML model (named reserveFleet) : false', 'Warning: Property without type found in OntoUML model (named nationality) : false', 'Warning: Property without type found in OntoUML model (named marital) : false', 'Warning: Property without type found in OntoUML model (named RG) : false', 'Warning: Property without type found in OntoUML model (named companies) : false', 'Warning: Property without type found in OntoUML model (named address) : false', 'Warning: Property without type found in OntoUML model (named lines) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 71 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\TenderInCallForTender.java:88: error: method getPublication() is already defined in class TenderInCallForTender
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 71 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\TenderInCallForTender.java:88: error: method getPublication() is already defined in class TenderInCallForTender
     [javac] 	public ArrayList<CallForTenderPublication> getPublication() {
     [javac] 	                                           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\TenderInCallForTender.java:96: error: name clash: setPublication(ArrayList<CallForTenderPublication>) and setPublication(ArrayList<Publication>) have the same erasure
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\TenderInCallForTender.java:96: error: name clash: setPublication(ArrayList<CallForTenderPublication>) and setPublication(ArrayList<Publication>) have the same erasure
     [javac] 	public void setPublication(ArrayList<CallForTenderPublication> newPublication) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\PublishedCallForTender.java:103: error: method getPublication() is already defined in class PublishedCallForTender
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\PublishedCallForTender.java:103: error: method getPublication() is already defined in class PublishedCallForTender
     [javac] 	public CallForTenderPublication getPublication() {
     [javac] 	                                ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\PublishedCallForTender.java:119: error: method getRepublication() is already defined in class PublishedCallForTender
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\publictender\model\ontouml_model_repository\dc_publictender_english\PublishedCallForTender.java:119: error: method getRepublication() is already defined in class PublishedCallForTender
     [javac] 	public CallForTenderRepublication getRepublication() {
     [javac] 	                                  ^
     [javac] 4 errors
 
- [and 0 more lines]",1.0370768,7.8012741,8.4991588,71,Contains property without type
-55,qam,True,True,,16.9515458,,set(),,,1.0581161,7.547848,8.3455817,41,
-56,ramirez2015userfeedback,True,True,,17.0359271,,set(),,,1.0573522,7.7673445,8.2112304,50,
-57,real-estate-ontology,True,True,,16.4750897,,set(),,,0.9781131,7.4293377,8.0676389,15,
-58,recommendation-ontology,True,True,,16.4881428,,"{'Warning: Property without type found in OntoUML model (named Abbreviation) : false', 'Warning: Property without type found in OntoUML model (named PublicationDate) : false', 'Warning: Property without type found in OntoUML model (named Title) : false', 'Warning: Property without type found in OntoUML model (named definition) : false'}",,,1.0478134,7.527382,7.9129474,18,Contains property without type
-59,road-accident2013,True,True,,16.3213938,,{'Warning: Property without type found in OntoUML model (named fatalvictims) : false'},,,0.9522066,7.3513957,8.0177915,15,Contains property without type
-60,rocha2023ciencia-aberta,True,True,,16.4075481,,set(),,,1.0017452,7.4552677,7.9505352,24,
-61,santos2020valuenetworks,True,True,,16.6927308,,set(),,,0.9986864,7.6406016,8.0534428,15,
-62,scientific-experiment2013,True,True,,16.5010408,,set(),,,0.987504,7.5599625,7.9535743,20,
-63,scientific-publication2013,True,True,,16.8255245,,"{'Warning: Property without type found in OntoUML model (named endPage) : false', 'Warning: Property without type found in OntoUML model (named number) : false', 'Warning: Property without type found in OntoUML model (named subtitle) : false', 'Warning: Property without type found in OntoUML model (named periodicity) : false', 'Warning: Property without type found in OntoUML model (named volume) : false', 'Warning: Property without type found in OntoUML model (named title) : false', 'Warning: Property without type found in OntoUML model (named issn) : false', 'Warning: Property without type found in OntoUML model (named issueDate) : false', 'Warning: Property without type found in OntoUML model (named abstract) : false', 'Warning: Property without type found in OntoUML model (named startPage) : false'}",,,1.0210387,7.5276016,8.2768842,55,Contains property without type
-64,short-examples2013,True,True,,16.7846946,,set(),,,1.0241892,7.5380191,8.2224863,35,
-65,silva2012itarchitecture,True,True,,17.3493517,,{'Warning: Property without type found in OntoUML model (named distance) : false'},,,1.1724727,7.7604905,8.4163885,84,Contains property without type
-66,silva2021sebim,True,False,,16.7703345,,"{'Warning: Property without type found in OntoUML model (named value) : false', 'Warning: Property without type found in OntoUML model (named description) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.0531915,7.8867099,8.7693357,71,Contains property without type
+55,qam,True,True,,17.4719721,,set(),,,1.0484053,7.9295931,8.4939737,41,
+56,ramirez2015userfeedback,True,True,,16.9555006,,set(),,,1.0387982,7.6541154,8.262587,50,
+57,real-estate-ontology,True,True,,16.5573804,,set(),,,0.9761384,7.4597795,8.1214625,15,
+58,recommendation-ontology,True,True,,16.615005,,"{'Warning: Property without type found in OntoUML model (named Title) : false', 'Warning: Property without type found in OntoUML model (named Abbreviation) : false', 'Warning: Property without type found in OntoUML model (named PublicationDate) : false', 'Warning: Property without type found in OntoUML model (named definition) : false'}",,,1.0400517,7.4645008,8.1104525,18,Contains property without type
+59,road-accident2013,True,True,,16.5817548,,{'Warning: Property without type found in OntoUML model (named fatalvictims) : false'},,,1.0210921,7.5059716,8.0546911,15,Contains property without type
+60,rocha2023ciencia-aberta,True,True,,17.1178992,,set(),,,1.0403656,7.7351047,8.3424289,24,
+61,santos2020valuenetworks,True,True,,17.5532124,,set(),,,1.0512945,7.9608501,8.5410678,15,
+62,scientific-experiment2013,True,True,,17.1572038,,set(),,,1.0418465,7.9131776,8.2021797,20,
+63,scientific-publication2013,True,True,,17.1401272,,"{'Warning: Property without type found in OntoUML model (named title) : false', 'Warning: Property without type found in OntoUML model (named startPage) : false', 'Warning: Property without type found in OntoUML model (named number) : false', 'Warning: Property without type found in OntoUML model (named issueDate) : false', 'Warning: Property without type found in OntoUML model (named abstract) : false', 'Warning: Property without type found in OntoUML model (named issn) : false', 'Warning: Property without type found in OntoUML model (named endPage) : false', 'Warning: Property without type found in OntoUML model (named subtitle) : false', 'Warning: Property without type found in OntoUML model (named periodicity) : false', 'Warning: Property without type found in OntoUML model (named volume) : false'}",,,1.0869134,7.6787399,8.3744739,55,Contains property without type
+64,short-examples2013,True,True,,17.1561511,,set(),,,1.0407586,7.7223203,8.3930722,35,
+65,silva2012itarchitecture,True,True,,17.5286245,,{'Warning: Property without type found in OntoUML model (named distance) : false'},,,1.1219439,7.8003739,8.6063067,84,Contains property without type
+66,silva2021sebim,True,False,,17.4090349,,"{'Warning: Property without type found in OntoUML model (named value) : false', 'Warning: Property without type found in OntoUML model (named description) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 42 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\silva2021sebim\model\sebim\Construction.java:42: error: variable lightAnalysis is already defined in class Construction
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 42 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\silva2021sebim\model\sebim\Construction.java:42: error: variable lightAnalysis is already defined in class Construction
     [javac] 	public LightAnalysis lightAnalysis = null;
     [javac] 	                     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\silva2021sebim\model\sebim\Construction.java:182: error: method getLightAnalysis() is already defined in class Construction
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\silva2021sebim\model\sebim\Construction.java:182: error: method getLightAnalysis() is already defined in class Construction
     [javac] 	public LightAnalysis getLightAnalysis() {
     [javac] 	                     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\silva2021sebim\model\sebim\Construction.java:190: error: method setLightAnalysis(LightAnalysis) is already defined in class Construction
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\silva2021sebim\model\sebim\Construction.java:190: error: method setLightAnalysis(LightAnalysis) is already defined in class Construction
     [javac] 	public void setLightAnalysis(LightAnalysis newLightAnalysis) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\silva2021sebim\model\sebim\LightAnalysis.java:26: error: variable construction is already defined in class LightAnalysis
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\silva2021sebim\model\sebim\LightAnalysis.java:26: error: variable construction is already defined in class LightAnalysis
     [javac] 	public Construction construction = null;
     [javac] 	                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\silva2021sebim\model\sebim\LightAnalysis.java:66: error: method getConstruction() is already defined in class LightAnalysis
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\silva2021sebim\model\sebim\LightAnalysis.java:66: error: method getConstruction() is already defined in class LightAnalysis
     [javac] 	public Construction getConstruction() {
     [javac] 	                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\silva2021sebim\model\sebim\LightAnalysis.java:74: error: method setConstruction(Construction) is already defined in class LightAnalysis
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\silva2021sebim\model\sebim\LightAnalysis.java:74: error: method setConstruction(Construction) is already defined in class LightAnalysis
     [javac] 	public void setConstruction(Construction newConstruction) {
     [javac] 	            ^
     [javac] 6 errors
 
- [and 0 more lines]",1.0378739,7.5386487,8.1938119,42,Contains property without type
-67,silveira2021oap,True,True,,16.7664896,,set(),,,1.0317068,7.5654081,8.1693747,32,
-68,social-contract,True,True,,16.5927981,,set(),,,1.0299586,7.4997039,8.0631356,33,
-69,social-contracts2013,True,True,,16.597223,,set(),,,1.0220001,7.4892733,8.0859496,33,
-70,sousa2022triponto,True,True,,16.8729073,,set(),,,1.0421062,7.6188578,8.2119433,44,
-71,sportbooking2021,False,False,read_ontouml,1.0060657,"Buildfile: C:\Users\64guu\eclipse-ontouml\nl.guusgrievink.emf.ontouml.model\build.xml
+ [and 0 more lines]",1.0253255,7.8379758,8.5457336,42,Contains property without type
+67,silveira2021oap,True,True,,17.1130932,,set(),,,1.0223872,7.6775584,8.4131476,32,
+68,social-contract,True,True,,17.3210971,,set(),,,1.040644,7.8283454,8.4521077,33,
+69,social-contracts2013,True,True,,16.7387277,,set(),,,1.0336905,7.5243622,8.180675,33,
+70,sousa2022triponto,True,True,,17.4392257,,set(),,,1.0738984,7.8677299,8.4975974,44,
+71,sportbooking2021,False,False,read_ontouml,0.9731016,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\nl.guusgrievink.emf.ontouml.model\build.xml
 
 convertFromModelRepo:
-     [java] Reading from: C:\Users\64guu\PycharmProjects\OntoUMLTesting\TransformationChainTest\modelJsons-relationStereotypesRenamed\sportbooking2021.json
+     [java] Reading from: C:\Users\64guu\PycharmProjects\OntoUMLTesting\OntoUML2JavaAutomatedValidation\modelJsons-relationStereotypesRenamed\sportbooking2021.json
      [java] Exception in thread ""main"" java.lang.IllegalArgumentException: The value 'partOf' is not a valid enumerator of 'RelationStereotype'
      [java] 	at nl.guusgrievink.emf.ontouml.model.ontouml.impl.OntoumlFactoryImpl.createRelationStereotypeFromString(OntoumlFactoryImpl.java:349)
      [java] 	at nl.guusgrievink.emf.ontouml.model.ontouml.impl.OntoumlFactoryImpl.createFromString(OntoumlFactoryImpl.java:121)
@@ -851,233 +834,227 @@ convertFromModelRepo:
      [java] 	at org.eclipse.emfcloud.jackson.resource.JsonResource.doLoad(JsonResource.java:184)
      [java] 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1563)
      [java] 	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1342)
-     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.convertOntoUmlJsonToXmi(readOntoUML.java:70)
-     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.main(readOntoUML.java:45)
+     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.convertOntoUmlJsonToXmi(readOntoUML.java:60)
+     [java] 	at nl.guusgrievink.emf.ontouml.model.readOntoUML.main(readOntoUML.java:41)
 
- [and 0 more lines]",,,,1.0060657,"(-1,)","(-1,)",37,
-72,srro-ontology,True,False,,16.4681285,,"{'Warning: Property without type found in OntoUML model (named description) : false', 'Warning: Property without type found in OntoUML model (named identifier) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",,,,0.9731016,"(-1,)","(-1,)",37,
+72,srro-ontology,True,False,,16.8627463,,"{'Warning: Property without type found in OntoUML model (named identifier) : false', 'Warning: Property without type found in OntoUML model (named description) : false'}",,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 20 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:22: error: <identifier> expected
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 20 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:22: error: <identifier> expected
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:22: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:22: error: <identifier> expected
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                             ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:22: error: illegal start of type
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:22: error: illegal start of type
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                                                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:52: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:52: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:60: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:60: error: <identifier> expected
     [javac] 	    this.class = newClass;
     [javac] 	         ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:68: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:68: error: <identifier> expected
     [javac] 		this.class.add(classToAdd);
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:76: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:76: error: <identifier> expected
     [javac] 		this.class.remove(classToRemove);
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:84: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:84: error: <identifier> expected
     [javac] 		this.class.addAll(classsToAdd);
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:92: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\srroontology\model\srro_ontology\srro_ontology\ClassTestCase.java:92: error: <identifier> expected
     [javac] 		this.class.removeAll(classsToRemove);
     [javac] 		     ^
     [javac] 9 errors
 
- [and 0 more lines]",0.9931257,7.5000672,7.9749356,20,Contains property without type
-73,stock-broker2021,True,True,,16.5663159,,set(),,,1.0115616,7.5347036,8.0200507,14,
-74,telecom-equipment2013,True,True,,16.7863534,,set(),,,1.0469712,7.5631247,8.1762575,34,
-75,tender2013,True,True,,17.1012044,,"{'Warning: Property without type found in OntoUML model (named numeroEmpresas) : false', 'Warning: Property without type found in OntoUML model (named frotaReserva) : false', 'Warning: Property without type found in OntoUML model (named frotaOperacionalMinima) : false', 'Warning: Property without type found in OntoUML model (named numeroLinhas) : false', 'Warning: Property without type found in OntoUML model (named estado civil) : false', 'Warning: Property without type found in OntoUML model (named nacionalidade) : false', 'Warning: Property without type found in OntoUML model (named nome) : false', 'Warning: Property without type found in OntoUML model (named atividade principal) : false', 'Warning: Property without type found in OntoUML model (named frequenciaMinimaViagens) : false', 'Warning: Property without type found in OntoUML model (named prazo) : false', 'Warning: Property without type found in OntoUML model (named endere?o) : false', 'Warning: Property without type found in OntoUML model (named idade) : false', 'Warning: Property without type found in OntoUML model (named nome fantasia) : false', 'Warning: Property without type found in OntoUML model (named CNPJ) : false', 'Warning: Property without type found in OntoUML model (named CPF) : false', 'Warning: Property without type found in OntoUML model (named profiss?o) : false', 'Warning: Property without type found in OntoUML model (named atividade secund?ria) : false', 'Warning: Property without type found in OntoUML model (named RG) : false'}",,,1.0735175,7.5795209,8.448166,84,Contains property without type
-76,tourbo2021,True,False,,16.8356593,,{'Warning: Property without type found in OntoUML model (named touristAttraction) : false'},"Some files were generated more than once during this generation.
+ [and 0 more lines]",1.0071843,7.5935313,8.2620307,20,Contains property without type
+73,stock-broker2021,True,True,,16.7477538,,set(),,,0.9937592,7.6134064,8.1405882,14,
+74,telecom-equipment2013,True,True,,17.5362936,,set(),,,1.0750686,7.918132,8.543093,34,
+75,tender2013,True,True,,18.1980791,,"{'Warning: Property without type found in OntoUML model (named frequenciaMinimaViagens) : false', 'Warning: Property without type found in OntoUML model (named CPF) : false', 'Warning: Property without type found in OntoUML model (named idade) : false', 'Warning: Property without type found in OntoUML model (named nome fantasia) : false', 'Warning: Property without type found in OntoUML model (named atividade secund?ria) : false', 'Warning: Property without type found in OntoUML model (named frotaOperacionalMinima) : false', 'Warning: Property without type found in OntoUML model (named atividade principal) : false', 'Warning: Property without type found in OntoUML model (named profiss?o) : false', 'Warning: Property without type found in OntoUML model (named endere?o) : false', 'Warning: Property without type found in OntoUML model (named nome) : false', 'Warning: Property without type found in OntoUML model (named frotaReserva) : false', 'Warning: Property without type found in OntoUML model (named numeroLinhas) : false', 'Warning: Property without type found in OntoUML model (named estado civil) : false', 'Warning: Property without type found in OntoUML model (named RG) : false', 'Warning: Property without type found in OntoUML model (named nacionalidade) : false', 'Warning: Property without type found in OntoUML model (named prazo) : false', 'Warning: Property without type found in OntoUML model (named numeroEmpresas) : false', 'Warning: Property without type found in OntoUML model (named CNPJ) : false'}",,,1.0844474,8.1693512,8.9442805,84,Contains property without type
+76,tourbo2021,True,False,,17.3449187,,{'Warning: Property without type found in OntoUML model (named touristAttraction) : false'},"Some files were generated more than once during this generation.
 
 //tourbo2021/model/project/model/Point.java : 2 times
 
-","Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+","Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 45 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\tourbo2021\model\project\model\Plan.java:32: error: variable create is already defined in class Plan
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 45 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\tourbo2021\model\project\model\Plan.java:32: error: variable create is already defined in class Plan
     [javac] 	public final TouristGuide create = null;
     [javac] 	                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\tourbo2021\model\project\model\Plan.java:112: error: method getCreate() is already defined in class Plan
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\tourbo2021\model\project\model\Plan.java:112: error: method getCreate() is already defined in class Plan
     [javac] 	public TouristGuide getCreate() {
     [javac] 	                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\tourbo2021\model\project\model\Itinerary.java:38: error: cannot find symbol
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\tourbo2021\model\project\model\Itinerary.java:38: error: cannot find symbol
     [javac] 	public Long duration = Long.valueOf(0L);
     [javac] 	                           ^
     [javac]   symbol:   method valueOf(long)
     [javac]   location: class Long
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\tourbo2021\model\project\model\Plan.java:57: error: incompatible types: TouristGuide cannot be converted to Itinerary
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\tourbo2021\model\project\model\Plan.java:57: error: incompatible types: TouristGuide cannot be converted to Itinerary
     [javac] 		return this.create;
     [javac] 		           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\tourbo2021\model\project\model\Offer.java:23: error: cannot find symbol
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\tourbo2021\model\project\model\Offer.java:23: error: cannot find symbol
     [javac] 	public Long startingTime = Long.valueOf(0L);
     [javac] 	                               ^
     [javac]   symbol:   method valueOf(long)
     [javac]   location: class Long
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\tourbo2021\model\project\model\Offer.java:43: error: cannot find symbol
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\tourbo2021\model\project\model\Offer.java:43: error: cannot find symbol
     [javac] 	public Long identifier = Long.valueOf(0L);
     [javac] 	                             ^
     [javac]   symbol:   method valueOf(long)
     [javac]   location: class Long
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\tourbo2021\model\project\model\Offer.java:48: error: cannot find symbol
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\tourbo2021\model\project\model\Offer.java:48: error: cannot find symbol
     [javac] 	public Long date = Long.valueOf(0L);
     [javac] 	                       ^
     [javac]   symbol:   method valueOf(long)
     [javac]   location: class Long
     [javac] 7 errors
 
- [and 0 more lines]",1.0718565,7.5603547,8.2034481,49,Contains property without type
-77,university-ontology,True,False,,16.6455064,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.0726241,7.9155014,8.3567932,49,Contains property without type
+77,university-ontology,True,False,,17.2158147,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 27 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\ClassEnrollment.java:26: error: <identifier> expected
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 27 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\ClassEnrollment.java:26: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\ClassEnrollment.java:26: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\ClassEnrollment.java:26: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\ClassEnrollment.java:59: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\ClassEnrollment.java:59: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:27: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:27: error: <identifier> expected
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:27: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:27: error: <identifier> expected
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                             ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:27: error: illegal start of type
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:27: error: illegal start of type
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                                                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:78: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:78: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:86: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:86: error: <identifier> expected
     [javac] 	    this.class = newClass;
     [javac] 	         ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:94: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:94: error: <identifier> expected
     [javac] 		this.class.add(classToAdd);
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:102: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:102: error: <identifier> expected
     [javac] 		this.class.remove(classToRemove);
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:110: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:110: error: <identifier> expected
     [javac] 		this.class.addAll(classsToAdd);
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:118: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Discipline.java:118: error: <identifier> expected
     [javac] 		this.class.removeAll(classsToRemove);
     [javac] 		     ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:22: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:22: error: <identifier> expected
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                       ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:22: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:22: error: <identifier> expected
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                             ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:22: error: illegal start of type
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:22: error: illegal start of type
     [javac] 	public ArrayList<Class> class = new ArrayList<Class>();
     [javac] 	                                                    ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:72: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:72: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontology\model\university_ontology\the_university_model\Professor.java:80: error: <identifier> expected
-    [javac] 	    this.class = newClass;
-    [javac] 	         ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\universityontolo
- [and 64 more lines]",1.015505,7.5323794,8.097622,32,
-78,valaski2020medical-appointment,True,True,,16.5301416,,set(),,,1.0216756,7.528481,7.979985,7,
-79,zanetti2019orm-o,True,False,,16.7946647,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+    [j
+ [and 67 more lines]",1.040352,7.6901429,8.4853198,32,
+78,valaski2020medical-appointment,True,True,,16.8714291,,set(),,,1.0251832,7.6326152,8.2136307,7,
+79,zanetti2019orm-o,True,False,,17.209757,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 34 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zanetti2019ormo\model\ontology\EntityClass.java:31: error: <identifier> expected
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 34 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zanetti2019ormo\model\ontology\EntityClass.java:31: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zanetti2019ormo\model\ontology\EntityClass.java:31: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zanetti2019ormo\model\ontology\EntityClass.java:31: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zanetti2019ormo\model\ontology\EntityClass.java:88: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zanetti2019ormo\model\ontology\EntityClass.java:88: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zanetti2019ormo\model\ontology\Subclass.java:26: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zanetti2019ormo\model\ontology\Subclass.java:26: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                  ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zanetti2019ormo\model\ontology\Subclass.java:26: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zanetti2019ormo\model\ontology\Subclass.java:26: error: <identifier> expected
     [javac] 	public final Class class = null;
     [javac] 	                        ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zanetti2019ormo\model\ontology\Subclass.java:72: error: <identifier> expected
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zanetti2019ormo\model\ontology\Subclass.java:72: error: <identifier> expected
     [javac] 		return this.class;
     [javac] 		            ^
     [javac] 6 errors
 
- [and 0 more lines]",1.0598897,7.5812977,8.1534773,34,
-80,zhou2017hazard-ontology-robotic-strolling,True,True,,16.7800264,,set(),,,1.0410315,7.5765401,8.1624548,13,
-81,zhou2017hazard-ontology-train-control,True,False,,16.6941433,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
+ [and 0 more lines]",1.045477,7.7665663,8.3977137,34,
+80,zhou2017hazard-ontology-robotic-strolling,True,True,,16.9902351,,set(),,,1.0119603,7.6914871,8.2867877,13,
+81,zhou2017hazard-ontology-train-control,True,False,,17.2479417,,set(),,"Buildfile: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
 
 init:
-    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
+    [mkdir] Created dir: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
 
 build-project:
-     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\build.xml
-    [javac] Compiling 25 source files to C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\bin
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:37: error: variable provider is already defined in class Communication
+     [echo] Building TestCodeGeneration: C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\build.xml
+    [javac] Compiling 25 source files to C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\bin
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:37: error: variable provider is already defined in class Communication
     [javac] 	public ArrayList<Provider> provider = new ArrayList<Provider>();
     [javac] 	                           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:42: error: variable channel is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:42: error: variable channel is already defined in class Communication
     [javac] 	public ArrayList<Channel> channel = new ArrayList<Channel>();
     [javac] 	                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:215: error: method getProvider() is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:215: error: method getProvider() is already defined in class Communication
     [javac] 	public ArrayList<Provider> getProvider() {
     [javac] 	                           ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:223: error: method setProvider(ArrayList<Provider>) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:223: error: method setProvider(ArrayList<Provider>) is already defined in class Communication
     [javac] 	public void setProvider(ArrayList<Provider> newProvider) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:231: error: method addProviderToProvider(Provider) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:231: error: method addProviderToProvider(Provider) is already defined in class Communication
     [javac] 	public void addProviderToProvider(Provider providerToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:239: error: method removeProviderToProvider(Provider) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:239: error: method removeProviderToProvider(Provider) is already defined in class Communication
     [javac] 	public void removeProviderToProvider(Provider providerToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:247: error: method addAllProviderToProvider(ArrayList<Provider>) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:247: error: method addAllProviderToProvider(ArrayList<Provider>) is already defined in class Communication
     [javac] 	public void addAllProviderToProvider(ArrayList<Provider> providersToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:255: error: method removeAllProviderToProvider(ArrayList<Provider>) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:255: error: method removeAllProviderToProvider(ArrayList<Provider>) is already defined in class Communication
     [javac] 	public void removeAllProviderToProvider(ArrayList<Provider> providersToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:263: error: method getChannel() is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:263: error: method getChannel() is already defined in class Communication
     [javac] 	public ArrayList<Channel> getChannel() {
     [javac] 	                          ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:271: error: method setChannel(ArrayList<Channel>) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:271: error: method setChannel(ArrayList<Channel>) is already defined in class Communication
     [javac] 	public void setChannel(ArrayList<Channel> newChannel) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:279: error: method addChannelToChannel(Channel) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:279: error: method addChannelToChannel(Channel) is already defined in class Communication
     [javac] 	public void addChannelToChannel(Channel channelToAdd) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:287: error: method removeChannelToChannel(Channel) is already defined in class Communication
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:287: error: method removeChannelToChannel(Channel) is already defined in class Communication
     [javac] 	public void removeChannelToChannel(Channel channelToRemove) {
     [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:295: error: method addAllChannelToChannel(ArrayList<Channel>) is already defined in class Communication
-    [javac] 	public void addAllChannelToChannel(ArrayList<Channel> channelsToAdd) {
-    [javac] 	            ^
-    [javac] C:\Users\64guu\eclipse-ontouml\TestCodeGenerati
- [and 46 more lines]",1.0296961,7.4946202,8.169827,25,
+    [javac] C:\Users\64guu\eclipse-ontouml-java-generation\TestCodeGeneration\src\zhou2017hazardontologytraincontrol\model\ontology\train_control_system\Communication.java:29
+ [and 49 more lines]",1.0065452,7.7041958,8.5372007,25,
